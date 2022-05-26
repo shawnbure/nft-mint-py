@@ -42,7 +42,7 @@ TRANSACTION_REQUEST_SIZE = 50
 
 #############################################   MAIN   #############################################
 def main():
-    
+   
     print("========== EXECUTING bulk.py ==========")
     bulk_mint()  
 
@@ -58,7 +58,7 @@ def bulk_mint():
     # proxy address for elrond
     contract_address = deploy_config_dictionary['contract_address']
     proxy_address = deploy_config_dictionary['proxy_address']
-    chain_id = deploy_config_dictionary['chain'] 
+    chain_id = deploy_config_dictionary['chain']
 
     #base cid for pics at nft.storage
     base_cid = deploy_config_dictionary['base_cid']
@@ -75,7 +75,7 @@ def bulk_mint():
     # json metadata file
     json_path = deploy_config_dictionary['json_path']
 
-    #get the file object 
+    #get the file object
     json_metadata_file = open(json_path,mode='r')
 
     #read all of the lines
@@ -98,7 +98,7 @@ def bulk_mint():
     cost = 0
     transaction_counter = 0
     transaction_batch_counter = 0
-  
+ 
     # get the transaction_bunch
     bunch = transaction_bunch()
 
@@ -129,7 +129,7 @@ def bulk_mint():
 
         #nft name, nft uri, image, attributes, hash, royalties, selling price, token, payment nonce - @ with no value is null
         data = "createNft@" + nft_name + "@" + nft_uri + "@" + nft_uri_json + "@" + nft_royalties + "@" + nft_selling_price + "@" + nft_attributes    #proxy_address = https://devnet-gateway.elrond.com
-    
+   
 
         logging.debug(metadata_dictionary[transaction_counter]["name"])
 
@@ -144,10 +144,10 @@ def bulk_mint():
             print("==== Batch Count Reached - Sending Bulk Tx")  
             transaction_batch_counter = 0
 
-            if send_bulk_tx(bunch):                
-                bunch = transaction_bunch()                 
+            if bunch.send():                
+                bunch = transaction_bunch()                
                 print("Sent", transaction_counter, " mint transaction(s).")  
-                            
+                           
             else:
                 bunch = transaction_bunch()
                 transaction_counter -= TRANSACTION_REQUEST_SIZE 
@@ -156,8 +156,8 @@ def bulk_mint():
 
     if transaction_batch_counter > 0:
         #send the remaining transactions
-        print("==== Remaining Batch - Sending Bulk Tx") 
-        send_bulk_tx(bunch)
+        print("==== Remaining Batch - Sending Bulk Tx")
+        bunch.send()
         print("Sent", transaction_counter, "mint transaction(s).")
 
 
@@ -165,44 +165,8 @@ def bulk_mint():
 
 
 
-
-def send_bulk_tx(bunch):
-
-    apiUrl = deploy_config_dictionary['api_url']
-    _,hashes = bunch.send()
-
-    sleep(3)
-
-    if len(hashes) == 0 :
-        print("Hash Empty")
-        sleep(2)
-        return False
-            
-    isPending = True
-
-    countTracker = 1
-
-    while isPending == True: 
-        hashComma = ''
-        for key in hashes:
-            hashComma=hashComma+hashes[key]+','
-        res = requests.get(apiUrl+hashComma[:-1])
-        results=res.json()
-        
-        
-        for r in results:
-            print("Status [" + str(countTracker) + "]: " + r["status"])
-            countTracker += 1
-
-            if r["status"]=="fail" :           
-                return False
-            elif r["status"]=="pending" :
-                isPending = True
-                sleep(2)
-                continue
-            else:
-                return True    
-    
+ 
+   
 
 
 
@@ -210,7 +174,7 @@ def send_bulk_tx(bunch):
 class transaction_bunch:
 
     # FYI - The HTTP POST can not be larger then standard limits. Send 100 per request for now
-        
+       
     #contract address to deploy to
     contract_address = deploy_config_dictionary['contract_address']
 
@@ -220,14 +184,14 @@ class transaction_bunch:
     # proxy address for elrond
     proxy_address = deploy_config_dictionary['proxy_address']
 
-    # chain id for elrond 
-    chain_id = deploy_config_dictionary['chain'] 
+    # chain id for elrond
+    chain_id = deploy_config_dictionary['chain']
 
     #payload counters
     transaction_counter = 0
     transaction_batch_counter = 0
     tx_version = 1
-    options = ""    
+    options = ""   
     value = "0"
 
     # The init method or constructor
@@ -242,9 +206,9 @@ class transaction_bunch:
         self.bunch = BunchOfTransactions()
 
     # adds an item to the bunch
-    def add(self, data): 
+    def add(self, data):
 
-		#seems to be a moving target and mystery. I used 20MM for a while
+        #seems to be a moving target and mystery. I used 20MM for a while
         gas_limit = 20000000
 
         #bunch.add(sender, address.bech32(), sender.nonce, str(value), data, GAS_PRICE, gas_limit, chain_id, tx_version, options)
@@ -253,7 +217,42 @@ class transaction_bunch:
 
     # send the bunch    
     def send(self):    
-        return self.bunch.send(self.proxy)   
+        apiUrl = deploy_config_dictionary['api_url']
+        _,hashes = self.bunch.send(self.proxy)
+
+        sleep(3)
+
+        if len(hashes) == 0 :
+            print("Hash Empty")
+            sleep(2)
+            return False
+               
+        isPending = True
+
+        countTracker = 1
+
+        while isPending == True:
+            hashComma = ''
+            for key in hashes:
+                hashComma=hashComma+hashes[key]+','
+            res = requests.get(apiUrl+hashComma[:-1])
+            results=res.json()
+           
+           
+            for r in results:
+                print("Status [" + str(countTracker) + "]: " + r["status"])
+                countTracker += 1
+
+                if r["status"]=="fail" :          
+                    return False
+                elif r["status"]=="pending" :
+                    isPending = True
+                    sleep(2)
+                    continue
+                else:
+                    return True 
+ 
+
 
 
 
