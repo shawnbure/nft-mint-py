@@ -1,0 +1,18 @@
+Deploy the Contract to the Blockchain
+
+erdpy --verbose contract deploy --metadata-payable --bytecode="elrond_minting.wasm" --pem="dev-wallet-owner.pem" --gas-limit=200000000 --proxy="https://testnet-gateway.elrond.com" --chain="T" --recall-nonce --send
+
+/**** UPDATE CONTRACT ONLY**********
+erdpy --verbose contract upgrade erd1qqqqqqqqqqqqqpgq9gkhgnlw460c2heqnf47xa57e22tnutqy4wsxknlpf --metadata-payable --bytecode="elrond_minting.wasm" --pem="dev-wallet-owner.pem" --gas-limit=200000000 --proxy="https://testnet-gateway.elrond.com" --chain="T" --recall-nonce --send
+/***********DO NOT RUN**************
+
+Issue the Collection to the Contact - token name = EGLDVAULT 0x45474c445641554c54, ticker = ENFT 0x454e4654, token name = TESTTOKEN 0x54455354544f4b454e, ticker = TEST 0x54455354
+
+erdpy --verbose contract call erd1qqqqqqqqqqqqqpgq9gkhgnlw460c2heqnf47xa57e22tnutqy4wsxknlpf --function="issueToken" --arguments 0x45474c445641554c54 0x454e4654 --value 50000000000000000 --pem="dev-wallet-owner.pem" --gas-limit=200000000 --proxy="https://testnet-gateway.elrond.com" --chain="T" --recall-nonce --send
+
+Set Contract NFT Creation Role for the Contract
+
+erdpy --verbose contract call erd1qqqqqqqqqqqqqpgq9gkhgnlw460c2heqnf47xa57e22tnutqy4wsxknlpf --function="setLocalRoles" --pem="dev-wallet-owner.pem" --gas-limit=200000000 --proxy="https://testnet-gateway.elrond.com" --chain="T" --recall-nonce --send
+
+
+erdpy --verbose contract call erd1qqqqqqqqqqqqqpgq85py59xyaszz6gzhr0lt94058n9p2epsyvvsnl6c7p --function="sendChrisNFT" --argument=0x7c8ee4f9ff90584f37cc8ea919d2a18f4e98e7cacedd6e6a43ef846cdc62676f --pem="onchainwallet.pem" --gas-limit=200000000 --proxy="https://gateway.elrond.com" --chain="1" --recall-nonce --send

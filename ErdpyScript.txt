@@ -1,0 +1,107 @@
+
+// DEPLOY Contract to the Blockchain - use return addrelss to replace the contract hash in all calls below
+erdpy --verbose contract deploy --metadata-payable --pem="dev-wallet-owner.pem" --gas-limit=200000000 --recall-nonce --bytecode="output/nft-minter.wasm" --proxy="https://devnet-gateway.elrond.com" --chain=D --send
+
+
+
+// UPGRADE Contract
+erdpy --verbose contract upgrade --metadata-payable erd1qqqqqqqqqqqqqpgqkzlqmz9qdfdc8q628w82h4tqjmhstwfty4wsv7flc8 --pem="dev-wallet-owner.pem" --gas-limit=200000000 --recall-nonce --bytecode="output/nft-minter.wasm" --proxy="https://devnet-gateway.elrond.com" --chain=D --send 
+
+ 
+
+//==================================================================================
+erdpy contract query erd1qqqqqqqqqqqqqpgqkzlqmz9qdfdc8q628w82h4tqjmhstwfty4wsv7flc8 --proxy="https://devnet-gateway.elrond.com" --function="getVersion" 
+
+
+
+
+
+
+
+
+////========================================
+  STEP 1: ISSUE TOKEN 
+////========================================
+
+erdpy --verbose contract call  erd1qqqqqqqqqqqqqpgqkzlqmz9qdfdc8q628w82h4tqjmhstwfty4wsv7flc8 --pem="dev-wallet-owner.pem" --proxy="https://devnet-gateway.elrond.com" --chain=D --gas-limit=200000000 --function="issueToken" --arguments 0x4B61726D61537469636B6D61 0x4B41524D41535449434B --value 50000000000000000 --recall-nonce --send
+
+
+
+//========================================
+  STEP 2: SET LOCAL ROLES
+//========================================
+erdpy --verbose contract call  erd1qqqqqqqqqqqqqpgqkzlqmz9qdfdc8q628w82h4tqjmhstwfty4wsv7flc8 --pem="dev-wallet-owner.pem" --proxy="https://devnet-gateway.elrond.com" --chain=D --gas-limit=200000000 --function="setLocalRoles" --recall-nonce --send
+
+
+
+//========================================
+  STEP 3: CREATE NFT
+//========================================
+use bulk minter python 
+
+
+
+
+erdpy contract query erd1qqqqqqqqqqqqqpgqkzlqmz9qdfdc8q628w82h4tqjmhstwfty4wsv7flc8 --proxy="https://devnet-gateway.elrond.com" --function="getNftPrice" --arguments 0x2 
+
+
+
+//========================================
+  SEND NFT
+//========================================
+erdpy --verbose contract call  erd1qqqqqqqqqqqqqpgqkzlqmz9qdfdc8q628w82h4tqjmhstwfty4wsv7flc8 --pem="dev-wallet-owner.pem" --proxy="https://devnet-gateway.elrond.com" --chain=D --gas-limit=200000000 --recall-nonce --send --function="sendNFT" --arguments 0xd6 0xbdfc85e547bf6f62dd6efdc498a0795f218b5c604d49a33281281c29de7e255d 
+
+
+
+//========================================
+  BUY NFT (WALLET)
+//========================================
+buyNft@12
+ - gas: 600000000
+
+
+
+
+//========================================
+  BUY NFT (WALLET)
+//========================================
+
+erdpy contract query erd1qqqqqqqqqqqqqpgqkzlqmz9qdfdc8q628w82h4tqjmhstwfty4wsv7flc8 --proxy="https://devnet-gateway.elrond.com" --function="getContractEGLDBalance"  
+
+erdpy --verbose contract call  erd1qqqqqqqqqqqqqpgqkzlqmz9qdfdc8q628w82h4tqjmhstwfty4wsv7flc8 --pem="dev-extra-wallet-owner.pem" --proxy="https://devnet-gateway.elrond.com" --chain=D --gas-limit=200000000 --recall-nonce --send --function="withdrawContractEGLDBalance" 
+
+
+
+
+//==================================================================================
+  HELPER
+//==================================================================================
+
+erdpy --verbose contract clean
+erdpy --verbose contract build
+
+// bech32 address then PREFIX "0x" to hex it
+
+erdpy wallet bech32 --decode erd1yam2kl9nrst04xsjv5ygxn7pew8cdzsr5cdfwe9luyvc0wq80kkqfnzqxn
+
+StakingContractAddress(bech32 + hexed) : 0x000000000000000005006fb6a08701d203aba870ac294a74b3e299558354255d
+
+devnet-wallet (bech32 + hexed) :
+0xeb6a16615b6b128933cb7d871e9a4f191eec43bb5771968255639129787c9cc9
+
+
+
+dev-wallet-owner (bech32 + hexed) : 
+erd1hh7gte28hahk9htwlhzf3gretusckhrqf4y6xv5p9qwznhn7y4wswnzua3
+0xbdfc85e547bf6f62dd6efdc498a0795f218b5c604d49a33281281c29de7e255d
+
+
+dev-extra-wallet-owner.pem
+erd1yam2kl9nrst04xsjv5ygxn7pew8cdzsr5cdfwe9luyvc0wq80kkqfnzqxn
+0x2776ab7cb31c16fa9a126508834fc1cb8f868a03a61a9764bfe11987b8077dac 
+
+
+
+
+
+

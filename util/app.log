@@ -1,0 +1,535 @@
+accounts - INFO - Account.sync_nonce()
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): devnet-gateway.elrond.com:443
+urllib3.connectionpool - DEBUG - https://devnet-gateway.elrond.com:443 "GET /address/erd1hh7gte28hahk9htwlhzf3gretusckhrqf4y6xv5p9qwznhn7y4wswnzua3 HTTP/1.1" 200 333
+accounts - INFO - Account.sync_nonce() done: 10260
+root - DEBUG - Karma-Stickma: Eating Out (Male - Male) #1
+root - DEBUG - Karma-Stickma: Eating Out (Male - Male) #2
+root - DEBUG - Karma-Stickma: Eating Out (Male - Male) #3
+root - DEBUG - Karma-Stickma: Eating Out (Male - Male) #4
+root - DEBUG - Karma-Stickma: Eating Out (Male - Male) #5
+root - DEBUG - Karma-Stickma: Eating Out (Male - Male) #6
+root - DEBUG - Karma-Stickma: Eating Out (Male - Male) #7
+root - DEBUG - Karma-Stickma: Eating Out (Male - Male) #8
+root - DEBUG - Karma-Stickma: Eating Out (Male - Male) #9
+root - DEBUG - Karma-Stickma: Eating Out (Male - Male) #10
+root - DEBUG - Karma-Stickma: Eating Out (Male - Male) #11
+root - DEBUG - Karma-Stickma: Eating Out (Male - Male) #12
+root - DEBUG - Karma-Stickma: Eating Out (Male - Male) #13
+root - DEBUG - Karma-Stickma: Eating Out (Male - Male) #14
+root - DEBUG - Karma-Stickma: Eating Out (Male - Male) #15
+root - DEBUG - Karma-Stickma: Eating Out (Male - Male) #16
+root - DEBUG - Karma-Stickma: Eating Out (Female - Female) #1
+root - DEBUG - Karma-Stickma: Eating Out (Female - Female) #2
+root - DEBUG - Karma-Stickma: Eating Out (Female - Female) #3
+root - DEBUG - Karma-Stickma: Eating Out (Female - Female) #4
+root - DEBUG - Karma-Stickma: Eating Out (Female - Female) #5
+root - DEBUG - Karma-Stickma: Eating Out (Female - Female) #6
+root - DEBUG - Karma-Stickma: Eating Out (Female - Female) #7
+root - DEBUG - Karma-Stickma: Eating Out (Female - Female) #8
+root - DEBUG - Karma-Stickma: Eating Out (Female - Female) #9
+root - DEBUG - Karma-Stickma: Eating Out (Female - Female) #10
+root - DEBUG - Karma-Stickma: Eating Out (Female - Female) #11
+root - DEBUG - Karma-Stickma: Eating Out (Female - Female) #12
+root - DEBUG - Karma-Stickma: Eating Out (Female - Female) #13
+root - DEBUG - Karma-Stickma: Eating Out (Female - Female) #14
+root - DEBUG - Karma-Stickma: Eating Out (Female - Female) #15
+root - DEBUG - Karma-Stickma: Eating Out (Female - Female) #16
+root - DEBUG - Karma-Stickma: Eating Out (Male - Female) #1
+root - DEBUG - Karma-Stickma: Eating Out (Male - Female) #2
+root - DEBUG - Karma-Stickma: Eating Out (Male - Female) #3
+root - DEBUG - Karma-Stickma: Eating Out (Male - Female) #4
+root - DEBUG - Karma-Stickma: Eating Out (Male - Female) #5
+root - DEBUG - Karma-Stickma: Eating Out (Male - Female) #6
+root - DEBUG - Karma-Stickma: Eating Out (Male - Female) #7
+root - DEBUG - Karma-Stickma: Eating Out (Male - Female) #8
+root - DEBUG - Karma-Stickma: Eating Out (Male - Female) #9
+root - DEBUG - Karma-Stickma: Eating Out (Male - Female) #10
+root - DEBUG - Karma-Stickma: Eating Out (Male - Female) #11
+root - DEBUG - Karma-Stickma: Eating Out (Male - Female) #12
+root - DEBUG - Karma-Stickma: Eating Out (Male - Female) #13
+root - DEBUG - Karma-Stickma: Eating Out (Male - Female) #14
+root - DEBUG - Karma-Stickma: Eating Out (Male - Female) #15
+root - DEBUG - Karma-Stickma: Eating Out (Male - Female) #16
+root - DEBUG - Karma-Stickma: Top Reverse (Male - Male) #1
+root - DEBUG - Karma-Stickma: Top Reverse (Male - Male) #2
+transactions - INFO - BunchOfTransactions.send: 50 transactions
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): devnet-gateway.elrond.com:443
+urllib3.connectionpool - DEBUG - https://devnet-gateway.elrond.com:443 "POST /transaction/send-multiple HTTP/1.1" 200 None
+transactions - INFO - Sent: 50
+transactions - INFO - TxsHashes: {'0': 'a4b97b0f70c73d9ec97683e53ae97143fc0d41ac3e72c6158254812b0485fb23', '1': 'c04c51d8f30d57a1e53ca9e21bce191acc8dc292af851c428ec7991c40c46f9a', '10': '3539383b23ef3783aafe42cc7544b7c13e8da61dd9f7e4975c4776aafd93d521', '11': '26a8e844be774fe98c97118ee463e0549c22e19ab5f7c6e0e74898fac56588db', '12': '6834a3d5f061070f372076cf14568fa2e665bd99b00c3c6c3356c47fa52fe628', '13': 'f299d1c602d013b59272543ec8ce0c6f8ffedf0b50649593d9fb343b8eb2ce3a', '14': 'f0f7f42670caea3c7016946311dc2c089e721971875ee275bb691a32a6316da2', '15': '2645f2634021d1f33cd45353f136b58bfa97cf2fbf155dea4a9b41ec729cdaa1', '16': 'd86b7ecb3d246ef15aca35e1bd696e7ef5210186ab139c8b5a49273e7d63c6c3', '17': '165a9f722492121f95fcabcf68569ce0431efb9fb33d020b1a21fd544c60331e', '18': 'c7038bcdf53067a5655fbd1809aae4ac84310515fed769d8f96bae4d70d1ad1c', '19': '5b68bbedc59fe6fda776a05dd99fa057eca03927ce935668ab9340b2d1ab0cb6', '2': 'ddcfecf4b530f10c24acbd0dfe5383c7318711ac032311c0fa403c0a1737a8ce', '20': 'bed1b4a247ecb1b900d3c2d0a512ea1e8cdc754788e68b2624cd841ccfd0be06', '21': '9e0eb0a0796b06c8660970886cc153e9e4a0e6fde68de06b52d26f43c391920a', '22': '8c4c57a09a6fbe998fab81b169bfcdc70345d5cfc01f26e9f1619bc642a1c6e4', '23': '98373c27a42e4c2ceba11b6308188d1bda1567437a8828736560fb0aa261b808', '24': 'bbf727ae683c4418dafa1e59db8b00d4eacf09852d7c4eb304b7c1d1ac337aed', '25': '80a78f3a81f577ba5d9d67147f840ec03e2b5cc9ec5ea2d76cc89961997af5ff', '26': 'b4d3bf2e82eecece58a79922c7764e31c3c43d06b3aad92108840bafcac8eac5', '27': '42ab8c3e29b08f3eab2bf2ae9d755b6ded7f57c98bbe56cfca53b1461aeae969', '28': '942e62d6c88b6d0f359513f77099b3e426ac3474df6462858c2a257680878487', '29': 'e38c0992278bfc5701857e10c1fc236ba5c77175ae1ef46f2fa564331e629604', '3': '8b048f31a9a9f53fa28df0d62c2629702a8578702009175d693b16c298835309', '30': '4873b656e24feff9ada2314b50db3011ab9d62123c3f3b278fa1106161394c13', '31': 'c957ca0753eb6f6def623d4cd9e518d94158eb4f9cf8c2962aac2e854e413c50', '32': '7e444b33dc9bb4e1024bdf3bd0ea3ee9948ab79468a964630278925d1b9d1276', '33': '75fce38bcd33adff37af1d5eaa7dde48fd3c490f2513483c32d4a7413f89db14', '34': 'a086e5cd1d4cdb70afc79901f239b628af96da166cdd19beeb9d8c4dcb1f0f54', '35': '435e786ba7ff4adbad885f6fad678ade492aea72528fc4584e32fbb67a5fe8ba', '36': '0fae6816b9ce9c59e67f2e1609a89b0be3dca876912d79af47e3fac46b8d7946', '37': '64a1097cf9214b689999e2293e0fb2a2d34c35bc80f7ed20a68a34f1992f0285', '38': 'bc0c78818d7d02468d66eb0d2a1d97113418e2b4f445dcb56e3a7ad81bbcd3a3', '39': 'f612c53130d9fc770f7f04ac923cd5be73abba593b16092ec813df3e8732b6e1', '4': 'bd7103510f421c792a5c61346ff3e4fed34206e67693a9c7eef5dd225ce5be8d', '40': '427a150df3269dc00ca8c901c2e3d22475124d9a9a90c3da0405132a45449858', '41': '2c1a95ab7207828fa2bf271f0981d0d7b77f2fc99db84f6fa2c8c1077fdea76e', '42': '2c2fbe62e5a167c01aef721bc1a08e2d8abb21046b1acac73b0b8b4636629b1d', '43': '9e21529c753ee9b9dfd0e43937dc0497945f808a5f726fc0c126bcbbf06c3762', '44': 'd48c0a0ae4cf876a33cc78e5ac8bbf9347b6e64c2d4f06eb60882594c5ca7fae', '45': 'fab2836033f33898bc6c1d684336be746d95d4e1f46164ce505997d773b0bf4d', '46': 'c664231ccf870d8e2e25fdeb457a8bd8272f712aeb29ee505c8073b9f7d80340', '47': 'e4c4237d7c0e50eb1566ef883ba13bf0a4d75a917f832b5a63b390424e6d51c8', '48': '1d8bf6854a17262acacc52076ed36934b6869237b7e43a7e54dda40149e5c7e5', '49': '9e1c78a6da4e8649d5927f128781cf847933c04611beeba10588d77ffb60f283', '5': '701f9543be481fee05457830a38a57f89f28473a469e5c924dd4fc822478f4c3', '6': 'b0e93fbdd123c3d662e343a8da2e2053d16964f742c92894d5f4c19c290066bc', '7': '45fe0733d1eb2fd928e9a9ab13b7eae9155fe4a5a3f5da31489b9397c3d3dd5d', '8': '3fc3c8f82a53211319c7d1b6b1ead0ed22261820f8374485f1a5538d3864d374', '9': '412acfa96426661873394b0690b049784c18c62be1a9afa2826ee1e307450d54'}
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): devnet-api.elrond.com:443
+urllib3.connectionpool - DEBUG - https://devnet-api.elrond.com:443 "GET /transactions?hashes=a4b97b0f70c73d9ec97683e53ae97143fc0d41ac3e72c6158254812b0485fb23,c04c51d8f30d57a1e53ca9e21bce191acc8dc292af851c428ec7991c40c46f9a,3539383b23ef3783aafe42cc7544b7c13e8da61dd9f7e4975c4776aafd93d521,26a8e844be774fe98c97118ee463e0549c22e19ab5f7c6e0e74898fac56588db,6834a3d5f061070f372076cf14568fa2e665bd99b00c3c6c3356c47fa52fe628,f299d1c602d013b59272543ec8ce0c6f8ffedf0b50649593d9fb343b8eb2ce3a,f0f7f42670caea3c7016946311dc2c089e721971875ee275bb691a32a6316da2,2645f2634021d1f33cd45353f136b58bfa97cf2fbf155dea4a9b41ec729cdaa1,d86b7ecb3d246ef15aca35e1bd696e7ef5210186ab139c8b5a49273e7d63c6c3,165a9f722492121f95fcabcf68569ce0431efb9fb33d020b1a21fd544c60331e,c7038bcdf53067a5655fbd1809aae4ac84310515fed769d8f96bae4d70d1ad1c,5b68bbedc59fe6fda776a05dd99fa057eca03927ce935668ab9340b2d1ab0cb6,ddcfecf4b530f10c24acbd0dfe5383c7318711ac032311c0fa403c0a1737a8ce,bed1b4a247ecb1b900d3c2d0a512ea1e8cdc754788e68b2624cd841ccfd0be06,9e0eb0a0796b06c8660970886cc153e9e4a0e6fde68de06b52d26f43c391920a,8c4c57a09a6fbe998fab81b169bfcdc70345d5cfc01f26e9f1619bc642a1c6e4,98373c27a42e4c2ceba11b6308188d1bda1567437a8828736560fb0aa261b808,bbf727ae683c4418dafa1e59db8b00d4eacf09852d7c4eb304b7c1d1ac337aed,80a78f3a81f577ba5d9d67147f840ec03e2b5cc9ec5ea2d76cc89961997af5ff,b4d3bf2e82eecece58a79922c7764e31c3c43d06b3aad92108840bafcac8eac5,42ab8c3e29b08f3eab2bf2ae9d755b6ded7f57c98bbe56cfca53b1461aeae969,942e62d6c88b6d0f359513f77099b3e426ac3474df6462858c2a257680878487,e38c0992278bfc5701857e10c1fc236ba5c77175ae1ef46f2fa564331e629604,8b048f31a9a9f53fa28df0d62c2629702a8578702009175d693b16c298835309,4873b656e24feff9ada2314b50db3011ab9d62123c3f3b278fa1106161394c13,c957ca0753eb6f6def623d4cd9e518d94158eb4f9cf8c2962aac2e854e413c50,7e444b33dc9bb4e1024bdf3bd0ea3ee9948ab79468a964630278925d1b9d1276,75fce38bcd33adff37af1d5eaa7dde48fd3c490f2513483c32d4a7413f89db14,a086e5cd1d4cdb70afc79901f239b628af96da166cdd19beeb9d8c4dcb1f0f54,435e786ba7ff4adbad885f6fad678ade492aea72528fc4584e32fbb67a5fe8ba,0fae6816b9ce9c59e67f2e1609a89b0be3dca876912d79af47e3fac46b8d7946,64a1097cf9214b689999e2293e0fb2a2d34c35bc80f7ed20a68a34f1992f0285,bc0c78818d7d02468d66eb0d2a1d97113418e2b4f445dcb56e3a7ad81bbcd3a3,f612c53130d9fc770f7f04ac923cd5be73abba593b16092ec813df3e8732b6e1,bd7103510f421c792a5c61346ff3e4fed34206e67693a9c7eef5dd225ce5be8d,427a150df3269dc00ca8c901c2e3d22475124d9a9a90c3da0405132a45449858,2c1a95ab7207828fa2bf271f0981d0d7b77f2fc99db84f6fa2c8c1077fdea76e,2c2fbe62e5a167c01aef721bc1a08e2d8abb21046b1acac73b0b8b4636629b1d,9e21529c753ee9b9dfd0e43937dc0497945f808a5f726fc0c126bcbbf06c3762,d48c0a0ae4cf876a33cc78e5ac8bbf9347b6e64c2d4f06eb60882594c5ca7fae,fab2836033f33898bc6c1d684336be746d95d4e1f46164ce505997d773b0bf4d,c664231ccf870d8e2e25fdeb457a8bd8272f712aeb29ee505c8073b9f7d80340,e4c4237d7c0e50eb1566ef883ba13bf0a4d75a917f832b5a63b390424e6d51c8,1d8bf6854a17262acacc52076ed36934b6869237b7e43a7e54dda40149e5c7e5,9e1c78a6da4e8649d5927f128781cf847933c04611beeba10588d77ffb60f283,701f9543be481fee05457830a38a57f89f28473a469e5c924dd4fc822478f4c3,b0e93fbdd123c3d662e343a8da2e2053d16964f742c92894d5f4c19c290066bc,45fe0733d1eb2fd928e9a9ab13b7eae9155fe4a5a3f5da31489b9397c3d3dd5d,3fc3c8f82a53211319c7d1b6b1ead0ed22261820f8374485f1a5538d3864d374,412acfa96426661873394b0690b049784c18c62be1a9afa2826ee1e307450d54 HTTP/1.1" 200 94830
+accounts - INFO - Account.sync_nonce()
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): devnet-gateway.elrond.com:443
+urllib3.connectionpool - DEBUG - https://devnet-gateway.elrond.com:443 "GET /address/erd1hh7gte28hahk9htwlhzf3gretusckhrqf4y6xv5p9qwznhn7y4wswnzua3 HTTP/1.1" 200 333
+accounts - INFO - Account.sync_nonce() done: 10310
+root - DEBUG - Karma-Stickma: Top Reverse (Male - Male) #3
+root - DEBUG - Karma-Stickma: Top Reverse (Male - Male) #4
+root - DEBUG - Karma-Stickma: Top Reverse (Male - Male) #5
+root - DEBUG - Karma-Stickma: Top Reverse (Male - Male) #6
+root - DEBUG - Karma-Stickma: Top Reverse (Male - Male) #7
+root - DEBUG - Karma-Stickma: Top Reverse (Male - Male) #8
+root - DEBUG - Karma-Stickma: Top Reverse (Male - Male) #9
+root - DEBUG - Karma-Stickma: Top Reverse (Male - Male) #10
+root - DEBUG - Karma-Stickma: Top Reverse (Male - Male) #11
+root - DEBUG - Karma-Stickma: Top Reverse (Male - Male) #12
+root - DEBUG - Karma-Stickma: Top Reverse (Male - Male) #13
+root - DEBUG - Karma-Stickma: Top Reverse (Male - Male) #14
+root - DEBUG - Karma-Stickma: Top Reverse (Male - Male) #15
+root - DEBUG - Karma-Stickma: Top Reverse (Male - Male) #16
+root - DEBUG - Karma-Stickma: Top Reverse (Female - Female) #1
+root - DEBUG - Karma-Stickma: Top Reverse (Female - Female) #2
+root - DEBUG - Karma-Stickma: Top Reverse (Female - Female) #3
+root - DEBUG - Karma-Stickma: Top Reverse (Female - Female) #4
+root - DEBUG - Karma-Stickma: Top Reverse (Female - Female) #5
+root - DEBUG - Karma-Stickma: Top Reverse (Female - Female) #6
+root - DEBUG - Karma-Stickma: Top Reverse (Female - Female) #7
+root - DEBUG - Karma-Stickma: Top Reverse (Female - Female) #8
+root - DEBUG - Karma-Stickma: Top Reverse (Female - Female) #9
+root - DEBUG - Karma-Stickma: Top Reverse (Female - Female) #10
+root - DEBUG - Karma-Stickma: Top Reverse (Female - Female) #11
+root - DEBUG - Karma-Stickma: Top Reverse (Female - Female) #12
+root - DEBUG - Karma-Stickma: Top Reverse (Female - Female) #13
+root - DEBUG - Karma-Stickma: Top Reverse (Female - Female) #14
+root - DEBUG - Karma-Stickma: Top Reverse (Female - Female) #15
+root - DEBUG - Karma-Stickma: Top Reverse (Female - Female) #16
+root - DEBUG - Karma-Stickma: Top Reverse (Male - Female) #1
+root - DEBUG - Karma-Stickma: Top Reverse (Male - Female) #2
+root - DEBUG - Karma-Stickma: Top Reverse (Male - Female) #3
+root - DEBUG - Karma-Stickma: Top Reverse (Male - Female) #4
+root - DEBUG - Karma-Stickma: Top Reverse (Male - Female) #5
+root - DEBUG - Karma-Stickma: Top Reverse (Male - Female) #6
+root - DEBUG - Karma-Stickma: Top Reverse (Male - Female) #7
+root - DEBUG - Karma-Stickma: Top Reverse (Male - Female) #8
+root - DEBUG - Karma-Stickma: Top Reverse (Male - Female) #9
+root - DEBUG - Karma-Stickma: Top Reverse (Male - Female) #10
+root - DEBUG - Karma-Stickma: Top Reverse (Male - Female) #11
+root - DEBUG - Karma-Stickma: Top Reverse (Male - Female) #12
+root - DEBUG - Karma-Stickma: Top Reverse (Male - Female) #13
+root - DEBUG - Karma-Stickma: Top Reverse (Male - Female) #14
+root - DEBUG - Karma-Stickma: Top Reverse (Male - Female) #15
+root - DEBUG - Karma-Stickma: Top Reverse (Male - Female) #16
+root - DEBUG - Karma-Stickma: Top Front (Male - Male) #1
+root - DEBUG - Karma-Stickma: Top Front (Male - Male) #2
+root - DEBUG - Karma-Stickma: Top Front (Male - Male) #3
+root - DEBUG - Karma-Stickma: Top Front (Male - Male) #4
+transactions - INFO - BunchOfTransactions.send: 50 transactions
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): devnet-gateway.elrond.com:443
+urllib3.connectionpool - DEBUG - https://devnet-gateway.elrond.com:443 "POST /transaction/send-multiple HTTP/1.1" 200 None
+transactions - INFO - Sent: 50
+transactions - INFO - TxsHashes: {'0': 'd96dc3aa77eb81b79eb29fb633285605803963b7e2478148147aefe6b1e2b505', '1': '3723d2613c27adb73f3a61bbed6ccc204d8cb36dc83039afb657c9cfe759d63c', '10': 'b7aa6861a504cbd058e0c2496a1a25f2ac6d9c6412b9ca306ed347f41803e259', '11': '43447faca7a5872a3def7d29094fd52f6608f2cdf6fafcff0459881084215638', '12': 'f2270778ef2126d369ae6b6213973a23518cb13a281e5a4b01b2bfd21031a6d5', '13': '56ca609827c66ecbccb0a3745532427f96416a5473fdc1098f5aa27503aef3fc', '14': '4861465e260fbc2a1c540e0628ec8fa37bc7447049ce0cbc5790531a9af7ea3f', '15': '6e033b36f6789854d4b10299e66fc660bf0b7aff13ba628ad5d939cebee19827', '16': '60d2440685cd9ba4fb7084d7a05873771beb7dfcbf4860ec99a6650db43910f4', '17': '4f42cf81def5c8293e9655688dcaca0835ebdaf99806be2acdb14d2816eb0026', '18': '2a949f57a2ba034c4b5aca661ce7087f81f339a44449f4bef45861a949340301', '19': 'fd4722996f94b6caf28f7c3aac7bb11e160f32dfff54848e14e914548543ca50', '2': 'ed379ddae0fbfac67f405b80bb17caf34b4e27772c37cfe9b4d25f1b2ee7be7e', '20': '0f69092116d6b8e43ba38c1c65333589ce245e176ba821de64694c74a3f5bc5e', '21': 'da74497ea5f230a1ca9a84acb703e133431e0550317fa528117d334929cf8c70', '22': 'a974653fd570bafa0b2b10c94e191694aa5ecc32e6691c365d53e35bc926a167', '23': 'df7e461f8e6a7d4ca9a6a269738a72133a14b4db0d2b0869667ba3ef6f39ac7a', '24': 'fca8ef420f0eee0a35bed1a4b173bd46572f4ad9093e26c487ad3f9dd1ce6107', '25': 'df0e6c9a8e8c2cbc2cf63c1ae4c616d08357dbf68ad9ac1d96d10aa8f1f0a0c4', '26': '954c6bd2698036d064597495e04731c49c9016e2cdcab16509914ee7235fc1c3', '27': '919bd13c6c437de9e5caf79d41fa4ea5503dc7b94f4241b62058dcabadcecc64', '28': 'fcf581d992bfd4cd5b9449ecc39a0cb55b24ff3670fcd6704eeef7e614fdfff1', '29': '18dc83bc61bac06f511e4b99505ccfd83b16d83c0a9c4f983b9b0001b2979c2d', '3': '4b96444d18b2a2146e26e183e14b1b551bf2c8204a10c84d2445cdab2bf6c268', '30': '00ada6aabbde714cdefdc5838db6dcc08a7853f8537560d2a4e898ebeca4208c', '31': '9dae9892cba46e65827ca59c9de79e0bba995e89d437bfb252f293d43397632a', '32': '386eb1dbac201fdcf95b7095f528be3ae88081f683b4c160dce8a6fb5e301354', '33': 'e4bac1ec918d8fbe84a9a11c6d4fa2ea6db4195eb06f77fe1da1aec2924da6c7', '34': 'e82818dc5ce3856439285a2e785454698444d348bc3f5d942d877436779695e9', '35': '28b607fa987356015b01949d7ba0e14993cc75b0e7c0973c1614d9244a35fe38', '36': 'b2c7bd8331cf4cfb1ee62c5bc462f86240f64980e4b0a0c37a3d7b7784dd9f5e', '37': 'dab47e7a3293ae35bc92b47ce225607eb805b8a51661dc5b1ad20c5fe4a30117', '38': '00e1e36a443bedd427b612d9a74cfec042d5632062e41a05f0af242e0015ef34', '39': 'f2ebfb51707faca9b90ee7044de83f91901a3c84eb7f1e185a84e649b10c9bb4', '4': 'e2690cb819afb973e4aaaacc2c705639337ec7b5eae8d70158931faa8c6346bd', '40': 'f40c751e63ff6395ebbd16cc4c81ffdba24a82952604299a40edcf1809e68b3c', '41': '395aba1dd8f2f02248627f66281c52f0d23b77c5fe4bdffe5c5c298badbf7af7', '42': 'abbb1cee5ac961958a3fce843ede954a7dc3e8682b12e6b07d808ca50438833e', '43': '8d360d865a822bfbf87ecf66685e5d76ca2551b8a6ec546ace4e517adb02e0ae', '44': 'c9286f319e99498564bfde87c066183caad0952a1a04e2aec6a9c3b895843775', '45': '19276498b079fcc10b7a78b7598cfd2b631515ab389a7abf00e828b229a81319', '46': '7c085301a3097c456bdb366d967e0ee44d6ba3c2f8ae942bd19e2b9cd22ff9dc', '47': '8dce339b8a31017cbdee4b9dc88ec694e47c3e1fe841b0142278e95b1c83aad2', '48': '160239a1504000e737457e492770d7e6707ab142e7683bdff4cc52f186d0d470', '49': '5788b2fef496fd139bfbc3ce2b4ffe3ddc5337a59dcabbb03d00364bc56c76b7', '5': '1790f081a8e94d0d1c0d88267bee8a0fdc68c7df544d1134f534512bfa7663ba', '6': '36fd20d02e306c8920a5c8e440c8f69aaf65bd4620567143f65addeb08ac572a', '7': 'd6d40a3c1b2e9cd9fa3535d4d332a05e761e0976134d20d8c920d5fa8ec861ad', '8': '565c9547c814b31fe0639e7597a7f418f59e3916d142d267499f425bb8a6add7', '9': '975c917ab0edb390358183b86b9a849357cdd45582947196560820253782566b'}
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): devnet-api.elrond.com:443
+urllib3.connectionpool - DEBUG - https://devnet-api.elrond.com:443 "GET /transactions?hashes=d96dc3aa77eb81b79eb29fb633285605803963b7e2478148147aefe6b1e2b505,3723d2613c27adb73f3a61bbed6ccc204d8cb36dc83039afb657c9cfe759d63c,b7aa6861a504cbd058e0c2496a1a25f2ac6d9c6412b9ca306ed347f41803e259,43447faca7a5872a3def7d29094fd52f6608f2cdf6fafcff0459881084215638,f2270778ef2126d369ae6b6213973a23518cb13a281e5a4b01b2bfd21031a6d5,56ca609827c66ecbccb0a3745532427f96416a5473fdc1098f5aa27503aef3fc,4861465e260fbc2a1c540e0628ec8fa37bc7447049ce0cbc5790531a9af7ea3f,6e033b36f6789854d4b10299e66fc660bf0b7aff13ba628ad5d939cebee19827,60d2440685cd9ba4fb7084d7a05873771beb7dfcbf4860ec99a6650db43910f4,4f42cf81def5c8293e9655688dcaca0835ebdaf99806be2acdb14d2816eb0026,2a949f57a2ba034c4b5aca661ce7087f81f339a44449f4bef45861a949340301,fd4722996f94b6caf28f7c3aac7bb11e160f32dfff54848e14e914548543ca50,ed379ddae0fbfac67f405b80bb17caf34b4e27772c37cfe9b4d25f1b2ee7be7e,0f69092116d6b8e43ba38c1c65333589ce245e176ba821de64694c74a3f5bc5e,da74497ea5f230a1ca9a84acb703e133431e0550317fa528117d334929cf8c70,a974653fd570bafa0b2b10c94e191694aa5ecc32e6691c365d53e35bc926a167,df7e461f8e6a7d4ca9a6a269738a72133a14b4db0d2b0869667ba3ef6f39ac7a,fca8ef420f0eee0a35bed1a4b173bd46572f4ad9093e26c487ad3f9dd1ce6107,df0e6c9a8e8c2cbc2cf63c1ae4c616d08357dbf68ad9ac1d96d10aa8f1f0a0c4,954c6bd2698036d064597495e04731c49c9016e2cdcab16509914ee7235fc1c3,919bd13c6c437de9e5caf79d41fa4ea5503dc7b94f4241b62058dcabadcecc64,fcf581d992bfd4cd5b9449ecc39a0cb55b24ff3670fcd6704eeef7e614fdfff1,18dc83bc61bac06f511e4b99505ccfd83b16d83c0a9c4f983b9b0001b2979c2d,4b96444d18b2a2146e26e183e14b1b551bf2c8204a10c84d2445cdab2bf6c268,00ada6aabbde714cdefdc5838db6dcc08a7853f8537560d2a4e898ebeca4208c,9dae9892cba46e65827ca59c9de79e0bba995e89d437bfb252f293d43397632a,386eb1dbac201fdcf95b7095f528be3ae88081f683b4c160dce8a6fb5e301354,e4bac1ec918d8fbe84a9a11c6d4fa2ea6db4195eb06f77fe1da1aec2924da6c7,e82818dc5ce3856439285a2e785454698444d348bc3f5d942d877436779695e9,28b607fa987356015b01949d7ba0e14993cc75b0e7c0973c1614d9244a35fe38,b2c7bd8331cf4cfb1ee62c5bc462f86240f64980e4b0a0c37a3d7b7784dd9f5e,dab47e7a3293ae35bc92b47ce225607eb805b8a51661dc5b1ad20c5fe4a30117,00e1e36a443bedd427b612d9a74cfec042d5632062e41a05f0af242e0015ef34,f2ebfb51707faca9b90ee7044de83f91901a3c84eb7f1e185a84e649b10c9bb4,e2690cb819afb973e4aaaacc2c705639337ec7b5eae8d70158931faa8c6346bd,f40c751e63ff6395ebbd16cc4c81ffdba24a82952604299a40edcf1809e68b3c,395aba1dd8f2f02248627f66281c52f0d23b77c5fe4bdffe5c5c298badbf7af7,abbb1cee5ac961958a3fce843ede954a7dc3e8682b12e6b07d808ca50438833e,8d360d865a822bfbf87ecf66685e5d76ca2551b8a6ec546ace4e517adb02e0ae,c9286f319e99498564bfde87c066183caad0952a1a04e2aec6a9c3b895843775,19276498b079fcc10b7a78b7598cfd2b631515ab389a7abf00e828b229a81319,7c085301a3097c456bdb366d967e0ee44d6ba3c2f8ae942bd19e2b9cd22ff9dc,8dce339b8a31017cbdee4b9dc88ec694e47c3e1fe841b0142278e95b1c83aad2,160239a1504000e737457e492770d7e6707ab142e7683bdff4cc52f186d0d470,5788b2fef496fd139bfbc3ce2b4ffe3ddc5337a59dcabbb03d00364bc56c76b7,1790f081a8e94d0d1c0d88267bee8a0fdc68c7df544d1134f534512bfa7663ba,36fd20d02e306c8920a5c8e440c8f69aaf65bd4620567143f65addeb08ac572a,d6d40a3c1b2e9cd9fa3535d4d332a05e761e0976134d20d8c920d5fa8ec861ad,565c9547c814b31fe0639e7597a7f418f59e3916d142d267499f425bb8a6add7,975c917ab0edb390358183b86b9a849357cdd45582947196560820253782566b HTTP/1.1" 200 95230
+accounts - INFO - Account.sync_nonce()
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): devnet-gateway.elrond.com:443
+urllib3.connectionpool - DEBUG - https://devnet-gateway.elrond.com:443 "GET /address/erd1hh7gte28hahk9htwlhzf3gretusckhrqf4y6xv5p9qwznhn7y4wswnzua3 HTTP/1.1" 200 333
+accounts - INFO - Account.sync_nonce() done: 10360
+root - DEBUG - Karma-Stickma: Top Front (Male - Male) #5
+root - DEBUG - Karma-Stickma: Top Front (Male - Male) #6
+root - DEBUG - Karma-Stickma: Top Front (Male - Male) #7
+root - DEBUG - Karma-Stickma: Top Front (Male - Male) #8
+root - DEBUG - Karma-Stickma: Top Front (Male - Male) #9
+root - DEBUG - Karma-Stickma: Top Front (Male - Male) #10
+root - DEBUG - Karma-Stickma: Top Front (Male - Male) #11
+root - DEBUG - Karma-Stickma: Top Front (Male - Male) #12
+root - DEBUG - Karma-Stickma: Top Front (Male - Male) #13
+root - DEBUG - Karma-Stickma: Top Front (Male - Male) #14
+root - DEBUG - Karma-Stickma: Top Front (Male - Male) #15
+root - DEBUG - Karma-Stickma: Top Front (Male - Male) #16
+root - DEBUG - Karma-Stickma: Top Front (Female - Female) #1
+root - DEBUG - Karma-Stickma: Top Front (Female - Female) #2
+root - DEBUG - Karma-Stickma: Top Front (Female - Female) #3
+root - DEBUG - Karma-Stickma: Top Front (Female - Female) #4
+root - DEBUG - Karma-Stickma: Top Front (Female - Female) #5
+root - DEBUG - Karma-Stickma: Top Front (Female - Female) #6
+root - DEBUG - Karma-Stickma: Top Front (Female - Female) #7
+root - DEBUG - Karma-Stickma: Top Front (Female - Female) #8
+root - DEBUG - Karma-Stickma: Top Front (Female - Female) #9
+root - DEBUG - Karma-Stickma: Top Front (Female - Female) #10
+root - DEBUG - Karma-Stickma: Top Front (Female - Female) #11
+root - DEBUG - Karma-Stickma: Top Front (Female - Female) #12
+root - DEBUG - Karma-Stickma: Top Front (Female - Female) #13
+root - DEBUG - Karma-Stickma: Top Front (Female - Female) #14
+root - DEBUG - Karma-Stickma: Top Front (Female - Female) #15
+root - DEBUG - Karma-Stickma: Top Front (Female - Female) #16
+root - DEBUG - Karma-Stickma: Top Front (Male - Female) #1
+root - DEBUG - Karma-Stickma: Top Front (Male - Female) #2
+root - DEBUG - Karma-Stickma: Top Front (Male - Female) #3
+root - DEBUG - Karma-Stickma: Top Front (Male - Female) #4
+root - DEBUG - Karma-Stickma: Top Front (Male - Female) #5
+root - DEBUG - Karma-Stickma: Top Front (Male - Female) #6
+root - DEBUG - Karma-Stickma: Top Front (Male - Female) #7
+root - DEBUG - Karma-Stickma: Top Front (Male - Female) #8
+root - DEBUG - Karma-Stickma: Top Front (Male - Female) #9
+root - DEBUG - Karma-Stickma: Top Front (Male - Female) #10
+root - DEBUG - Karma-Stickma: Top Front (Male - Female) #11
+root - DEBUG - Karma-Stickma: Top Front (Male - Female) #12
+root - DEBUG - Karma-Stickma: Top Front (Male - Female) #13
+root - DEBUG - Karma-Stickma: Top Front (Male - Female) #14
+root - DEBUG - Karma-Stickma: Top Front (Male - Female) #15
+root - DEBUG - Karma-Stickma: Top Front (Male - Female) #16
+root - DEBUG - Karma-Stickma: SeeSaw (Male - Male) #1
+root - DEBUG - Karma-Stickma: SeeSaw (Male - Male) #2
+root - DEBUG - Karma-Stickma: SeeSaw (Male - Male) #3
+root - DEBUG - Karma-Stickma: SeeSaw (Male - Male) #4
+root - DEBUG - Karma-Stickma: SeeSaw (Male - Male) #5
+root - DEBUG - Karma-Stickma: SeeSaw (Male - Male) #6
+transactions - INFO - BunchOfTransactions.send: 50 transactions
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): devnet-gateway.elrond.com:443
+urllib3.connectionpool - DEBUG - https://devnet-gateway.elrond.com:443 "POST /transaction/send-multiple HTTP/1.1" 200 None
+transactions - INFO - Sent: 50
+transactions - INFO - TxsHashes: {'0': 'f0fe6a38219c62bde4b4ea139b4df80dffc926979d2e54d49e75fd7ec952bd86', '1': '4e2ee2417a33f2efcb6bcd08c6f7ec6a8ba452fa7b5bcb38bab89336f27bb40e', '10': 'b2b9a28e5eedcc6acd8de892176e67664b5e06e575c6a4ffb8b2b0ad93ad2afe', '11': 'f8bd5d0406e3a8b6b9e92d647752370f2b32cbf61d9be8394f9bc2a9b96f75a5', '12': '0dcadece1818c5a7364e2817f433b0a0e8e0b56b90b50ff0e7b5613f869da3d0', '13': '39050ad13efe995c46670a138257433c0423462234918f781c579ae87fe28fab', '14': '9ceb8970ed7fdb94bf2dc78d3d412102ede6704cd01e340b85a54989a33ceeee', '15': 'e0cce4a19f2cf2cce9b13406104056d1c09b9f8b46dd96773cd7a219f29b3154', '16': '6619bdf52658b7b97e087427684371cd70f117d1dbc8d29fa3ffe221090e79d7', '17': 'a2ea56cc7a0aaff335a7df7db4d10de96851cb62e44bea03ee4c748a337e7210', '18': 'b7e6aace7876ea4ca140c9a088c8fda73f606f213877126f091543043085f974', '19': '43e2171e0986c029666554ae533ca1cb80981af6405c399f199b81245f17e4bc', '2': 'dbe0414bc48f2e37a73429b720a9944f6b2d3cabc6801cd7dde6cbd8aa947d62', '20': '271d8fa00c4bca6baa9d9867eeeac58bf1df3b05bc3ca7dc02a00c2d58ce08f7', '21': '9d3c3a75ee6ebde319c1d957dbf9858190d1f92f26947cf805762ae510c71da2', '22': 'bd827cac065bc970be05dc34c929109219b5fbb15f54aa192d838f5d1ec70dd4', '23': 'b3658d1644affcb801fb6843c1ba0a3d7798da3bba42a6bf63a0561346194deb', '24': '4cfd795b0c35491ace0ebc77a35ea394342c881ecf8baaaf52c2971e2bc7ad99', '25': '6376baadc968c0a5402336f07a5831ad8c8fd875e9d3cf393c401ff61efa858f', '26': 'bab113b25aa4c3cc0b46117a053a2494d03366de3dd245efeb451e0ea283a90f', '27': 'd9cea5cca81ef2b57367395fe62855a5aee637c4edf4df50431dc079074dd971', '28': '6664882f655a8118f0274dfc1f20a5b3eeffd41801412ef2711f679f1ec23185', '29': '7e0b13f6a49799ac502dba577ba0ae05fa920ce9377773a0e35264a5e2310d9d', '3': '1f1e5bf5856890fc2a5dd5dbb9190ec60d3244abb91ad7876f09915f0ee4f025', '30': 'a252e9df7cf7350984f3d69f040b27b9913b4b975f1b3fedd38fb573d178f552', '31': '4efe15d0d34b8604743d2f5ee84678839989805ac7e0eb0abbf870eeb0f05ebf', '32': '78a9e0449c8d8e544837e8193598c9373c21959039797f5c45aefb8e2116f115', '33': '54a1b14cf2294d8c58f32ddaba363001d29b3a0407cc0592188b5514522096f5', '34': '56b8b97dbd6ad576aeb6e47747bad1d4e8e89e1eae90ff3fce85543f856536e8', '35': 'e0b8edd9aac52d7446abd786edf84037483ea13d8ab637497457c9ceeed0487d', '36': '720e7e9a35b8d616caa6796503d12635734ead6435638b68b92b88a15ec87806', '37': '76e29a2ed5e76651a4941b8b6be231a0b9641d8f5aaab51478ebc19ee8d1ad57', '38': 'd6d5066c0d1fa1c3cf54aaae8a49238a2b5c1bdf62d61b4eb4fd37d9d16c7cf4', '39': '4cb2e890c9e7fec49e542b77a54bf7d1acee83d10381eecd19bf95aa1735bab0', '4': 'c33cb0d00a085e5a23e8253ecb70521a1b9476a8373b4e642e8d5bab4c1b1184', '40': '848a9b0296dfb0be39c6deed335da9f85750dc512bc330cf4c56b1385b752450', '41': '35eb38f115996c877b08eeaaf46ad7ea272d0f211017ea2b1b93474945b95e20', '42': '15e7f2291535c20d46d4c6a079c9f25317d4b51faccc19c1565942888b5af820', '43': '52822c0f2b02fc4e4ed01ad5a75bf74c8b4cff8e1ce362cbf24d44c90844eb96', '44': '60b935d20974c644bb0aab2bde0a891ec52bc077a1cb33af184587fbbc8c9660', '45': '95cf80fa033b4bee80c5b1aec0ebccc3ef20d5f9d756094c6779d48b46b61cf7', '46': 'd30d25a8219361afe7a9633aaaf1a80dc36288836c6d8bb7265aee9d0d4d340e', '47': '354dffcdbdd869741f549a2667c9ddac20c9aca5f07fe25efbc12949f0a86f24', '48': '54d9bdff58453ce57ff92f66979f409c0d543c258d0c8d669cbda5573c5104de', '49': 'c02d55b9b8989275421eee01a9a05b9c14a4ac1d57438e3ccb64b5d032f79cab', '5': '9e65d948ebf49c42e432e3bd52677fb6cb098d4bcfbd591bc14213c45f2d5339', '6': 'dd4561915305e5c0e98a4365e6b2a90ca6de993d3d97445377a106aead72becb', '7': 'c7184bcf600e2b9314fbcab5f5ba18c80a462f2be5c78c98c0df8b9fdfcb7acd', '8': 'd938a2a83539b6854942f2510b2c860e417e11f24eb066cc4a80b4e421ac5e50', '9': '2e6d1cbf0b0f65eca1d455a9a9b763791a109e7e60a110f099fbd1ac00476ee0'}
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): devnet-api.elrond.com:443
+urllib3.connectionpool - DEBUG - https://devnet-api.elrond.com:443 "GET /transactions?hashes=f0fe6a38219c62bde4b4ea139b4df80dffc926979d2e54d49e75fd7ec952bd86,4e2ee2417a33f2efcb6bcd08c6f7ec6a8ba452fa7b5bcb38bab89336f27bb40e,b2b9a28e5eedcc6acd8de892176e67664b5e06e575c6a4ffb8b2b0ad93ad2afe,f8bd5d0406e3a8b6b9e92d647752370f2b32cbf61d9be8394f9bc2a9b96f75a5,0dcadece1818c5a7364e2817f433b0a0e8e0b56b90b50ff0e7b5613f869da3d0,39050ad13efe995c46670a138257433c0423462234918f781c579ae87fe28fab,9ceb8970ed7fdb94bf2dc78d3d412102ede6704cd01e340b85a54989a33ceeee,e0cce4a19f2cf2cce9b13406104056d1c09b9f8b46dd96773cd7a219f29b3154,6619bdf52658b7b97e087427684371cd70f117d1dbc8d29fa3ffe221090e79d7,a2ea56cc7a0aaff335a7df7db4d10de96851cb62e44bea03ee4c748a337e7210,b7e6aace7876ea4ca140c9a088c8fda73f606f213877126f091543043085f974,43e2171e0986c029666554ae533ca1cb80981af6405c399f199b81245f17e4bc,dbe0414bc48f2e37a73429b720a9944f6b2d3cabc6801cd7dde6cbd8aa947d62,271d8fa00c4bca6baa9d9867eeeac58bf1df3b05bc3ca7dc02a00c2d58ce08f7,9d3c3a75ee6ebde319c1d957dbf9858190d1f92f26947cf805762ae510c71da2,bd827cac065bc970be05dc34c929109219b5fbb15f54aa192d838f5d1ec70dd4,b3658d1644affcb801fb6843c1ba0a3d7798da3bba42a6bf63a0561346194deb,4cfd795b0c35491ace0ebc77a35ea394342c881ecf8baaaf52c2971e2bc7ad99,6376baadc968c0a5402336f07a5831ad8c8fd875e9d3cf393c401ff61efa858f,bab113b25aa4c3cc0b46117a053a2494d03366de3dd245efeb451e0ea283a90f,d9cea5cca81ef2b57367395fe62855a5aee637c4edf4df50431dc079074dd971,6664882f655a8118f0274dfc1f20a5b3eeffd41801412ef2711f679f1ec23185,7e0b13f6a49799ac502dba577ba0ae05fa920ce9377773a0e35264a5e2310d9d,1f1e5bf5856890fc2a5dd5dbb9190ec60d3244abb91ad7876f09915f0ee4f025,a252e9df7cf7350984f3d69f040b27b9913b4b975f1b3fedd38fb573d178f552,4efe15d0d34b8604743d2f5ee84678839989805ac7e0eb0abbf870eeb0f05ebf,78a9e0449c8d8e544837e8193598c9373c21959039797f5c45aefb8e2116f115,54a1b14cf2294d8c58f32ddaba363001d29b3a0407cc0592188b5514522096f5,56b8b97dbd6ad576aeb6e47747bad1d4e8e89e1eae90ff3fce85543f856536e8,e0b8edd9aac52d7446abd786edf84037483ea13d8ab637497457c9ceeed0487d,720e7e9a35b8d616caa6796503d12635734ead6435638b68b92b88a15ec87806,76e29a2ed5e76651a4941b8b6be231a0b9641d8f5aaab51478ebc19ee8d1ad57,d6d5066c0d1fa1c3cf54aaae8a49238a2b5c1bdf62d61b4eb4fd37d9d16c7cf4,4cb2e890c9e7fec49e542b77a54bf7d1acee83d10381eecd19bf95aa1735bab0,c33cb0d00a085e5a23e8253ecb70521a1b9476a8373b4e642e8d5bab4c1b1184,848a9b0296dfb0be39c6deed335da9f85750dc512bc330cf4c56b1385b752450,35eb38f115996c877b08eeaaf46ad7ea272d0f211017ea2b1b93474945b95e20,15e7f2291535c20d46d4c6a079c9f25317d4b51faccc19c1565942888b5af820,52822c0f2b02fc4e4ed01ad5a75bf74c8b4cff8e1ce362cbf24d44c90844eb96,60b935d20974c644bb0aab2bde0a891ec52bc077a1cb33af184587fbbc8c9660,95cf80fa033b4bee80c5b1aec0ebccc3ef20d5f9d756094c6779d48b46b61cf7,d30d25a8219361afe7a9633aaaf1a80dc36288836c6d8bb7265aee9d0d4d340e,354dffcdbdd869741f549a2667c9ddac20c9aca5f07fe25efbc12949f0a86f24,54d9bdff58453ce57ff92f66979f409c0d543c258d0c8d669cbda5573c5104de,c02d55b9b8989275421eee01a9a05b9c14a4ac1d57438e3ccb64b5d032f79cab,9e65d948ebf49c42e432e3bd52677fb6cb098d4bcfbd591bc14213c45f2d5339,dd4561915305e5c0e98a4365e6b2a90ca6de993d3d97445377a106aead72becb,c7184bcf600e2b9314fbcab5f5ba18c80a462f2be5c78c98c0df8b9fdfcb7acd,d938a2a83539b6854942f2510b2c860e417e11f24eb066cc4a80b4e421ac5e50,2e6d1cbf0b0f65eca1d455a9a9b763791a109e7e60a110f099fbd1ac00476ee0 HTTP/1.1" 200 94742
+accounts - INFO - Account.sync_nonce()
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): devnet-gateway.elrond.com:443
+urllib3.connectionpool - DEBUG - https://devnet-gateway.elrond.com:443 "GET /address/erd1hh7gte28hahk9htwlhzf3gretusckhrqf4y6xv5p9qwznhn7y4wswnzua3 HTTP/1.1" 200 333
+accounts - INFO - Account.sync_nonce() done: 10410
+root - DEBUG - Karma-Stickma: SeeSaw (Male - Male) #7
+root - DEBUG - Karma-Stickma: SeeSaw (Male - Male) #8
+root - DEBUG - Karma-Stickma: SeeSaw (Male - Male) #9
+root - DEBUG - Karma-Stickma: SeeSaw (Male - Male) #10
+root - DEBUG - Karma-Stickma: SeeSaw (Male - Male) #11
+root - DEBUG - Karma-Stickma: SeeSaw (Male - Male) #12
+root - DEBUG - Karma-Stickma: SeeSaw (Male - Male) #13
+root - DEBUG - Karma-Stickma: SeeSaw (Male - Male) #14
+root - DEBUG - Karma-Stickma: SeeSaw (Male - Male) #15
+root - DEBUG - Karma-Stickma: SeeSaw (Male - Male) #16
+root - DEBUG - Karma-Stickma: SeeSaw (Female - Female) #1
+root - DEBUG - Karma-Stickma: SeeSaw (Female - Female) #2
+root - DEBUG - Karma-Stickma: SeeSaw (Female - Female) #3
+root - DEBUG - Karma-Stickma: SeeSaw (Female - Female) #4
+root - DEBUG - Karma-Stickma: SeeSaw (Female - Female) #5
+root - DEBUG - Karma-Stickma: SeeSaw (Female - Female) #6
+root - DEBUG - Karma-Stickma: SeeSaw (Female - Female) #7
+root - DEBUG - Karma-Stickma: SeeSaw (Female - Female) #8
+root - DEBUG - Karma-Stickma: SeeSaw (Female - Female) #9
+root - DEBUG - Karma-Stickma: SeeSaw (Female - Female) #10
+root - DEBUG - Karma-Stickma: SeeSaw (Female - Female) #11
+root - DEBUG - Karma-Stickma: SeeSaw (Female - Female) #12
+root - DEBUG - Karma-Stickma: SeeSaw (Female - Female) #13
+root - DEBUG - Karma-Stickma: SeeSaw (Female - Female) #14
+root - DEBUG - Karma-Stickma: SeeSaw (Female - Female) #15
+root - DEBUG - Karma-Stickma: SeeSaw (Female - Female) #16
+root - DEBUG - Karma-Stickma: SeeSaw (Male - Female) #1
+root - DEBUG - Karma-Stickma: SeeSaw (Male - Female) #2
+root - DEBUG - Karma-Stickma: SeeSaw (Male - Female) #3
+root - DEBUG - Karma-Stickma: SeeSaw (Male - Female) #4
+root - DEBUG - Karma-Stickma: SeeSaw (Male - Female) #5
+root - DEBUG - Karma-Stickma: SeeSaw (Male - Female) #6
+root - DEBUG - Karma-Stickma: SeeSaw (Male - Female) #7
+root - DEBUG - Karma-Stickma: SeeSaw (Male - Female) #8
+root - DEBUG - Karma-Stickma: SeeSaw (Male - Female) #9
+root - DEBUG - Karma-Stickma: SeeSaw (Male - Female) #10
+root - DEBUG - Karma-Stickma: SeeSaw (Male - Female) #11
+root - DEBUG - Karma-Stickma: SeeSaw (Male - Female) #12
+root - DEBUG - Karma-Stickma: SeeSaw (Male - Female) #13
+root - DEBUG - Karma-Stickma: SeeSaw (Male - Female) #14
+root - DEBUG - Karma-Stickma: SeeSaw (Male - Female) #15
+root - DEBUG - Karma-Stickma: SeeSaw (Male - Female) #16
+root - DEBUG - Karma-Stickma: Quickie (Male - Male) #1
+root - DEBUG - Karma-Stickma: Quickie (Male - Male) #2
+root - DEBUG - Karma-Stickma: Quickie (Male - Male) #3
+root - DEBUG - Karma-Stickma: Quickie (Male - Male) #4
+root - DEBUG - Karma-Stickma: Quickie (Male - Male) #5
+root - DEBUG - Karma-Stickma: Quickie (Male - Male) #6
+root - DEBUG - Karma-Stickma: Quickie (Male - Male) #7
+root - DEBUG - Karma-Stickma: Quickie (Male - Male) #8
+transactions - INFO - BunchOfTransactions.send: 50 transactions
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): devnet-gateway.elrond.com:443
+urllib3.connectionpool - DEBUG - https://devnet-gateway.elrond.com:443 "POST /transaction/send-multiple HTTP/1.1" 200 None
+transactions - INFO - Sent: 50
+transactions - INFO - TxsHashes: {'0': '70349c98dc0b68e220ba8216529aa6f97faa3a2ec078da7ddc1c647696443e65', '1': 'd31d9cd3cf612163e7acd2fd0ea454b4184aad1e0b4285cc220405006adc65ee', '10': '0306536a29d0ead84e95b9e55537689bf8578a52d84ef6f40e53cfa6fef252d7', '11': 'd4f661056788f56139060a745006ab6e7db7043b648c2b4cbf3c0cccc5e54492', '12': 'e7c43ccaee0985ccbcf4ff8ad9662ea2183cc463a8b9a734d3ef888cad2cdd41', '13': '2cc9fd894efd91946be63ed49a1d4a5dcccd7450035e3e321adb81e58877c611', '14': '57c9c83050a00f03dea4eee9c6368abd207b2ee31572f49a99f388d3d0b3d63b', '15': '300c254a8b1dd7ab967dffe50b67ff723bdb83e9525137fd4a3e68c63a350612', '16': '5a070c09b4da35aaef5562e6caa27d1f93485f20bd7a94921d2cfe2e1b56df8a', '17': '3317485ec9375843e8f7d077f5027577cf45da07b31841b6ae50b435fa4762b0', '18': 'b6dfc234a12d217cb9ac781b918c7b8eae547db0d3793df8c6ea123c7a32d3d8', '19': '01f9edeb56db320f536b6ba495fccd2c895c5fce9de57e00fdc035514abe9269', '2': 'dc895d6f3d67691e4f2d3e30bb4f935d41204a18f565a5d5a34547c0e20af3cd', '20': '3f0531c48cbfd5ea0a21164235a0832852c96904f281925e654cd9c55b3ec67a', '21': 'be1aa68ef57edaf0f1bdf32b911badc4363539b9e9506a104a9a51bbbcd9bd41', '22': '8d3633f4f57aae954f94fd7b82b8f7ac5721be9bdb9c7904a083bba276fcc21b', '23': '77dff06b4fc92153086d3a103db3d03455d5d3b37d72b4c6de17465824e0e1ce', '24': 'ff2f2da86c3fd82b9e568de3169f5353a3b46c4bf9d19feebebaea8520c8b264', '25': 'd60ddb46e65415d64cc11df7fb8f1dce011e3eb7306b85d95b5241028c5954ed', '26': '874e5b58a80b28994bad2a1c84b6f2ab65f9f361c74709653ca790c77ef24b10', '27': 'e471a0374901e1443f421d939969e27828edf93e0078eb4df20173c3cd6d9824', '28': '128cf4541922cdae8f1195e7140deb2e04f8e9184a5da777f5013986900d4d63', '29': '90e6383a5181cb7459abf8ab56bfb844419a803df7e6ca14cbc2ee4fdb2a20a5', '3': '24b59d922df49a35a8ddb60a890ad309f4b18f9fec0d53a593d768fb19d54e75', '30': 'ed010ee53b26123e5420a8cdea07c3ca456f56f300f51b08eb78cbbfac796ade', '31': '9c3e0d4d5789e8b289cb8799e693698d6504b077528ac87f0752cef5476719a9', '32': '58459ef9e87ccf6b2c757e2cda621ccee18e7521856621d40cf678b633ec0442', '33': '29034df6fffa1b28870068a48693b882da15b0f683de92fbdeaf07018d4b04a8', '34': '1c51927fc9183f7caf71b3ff87571902f0a707d7fb76a8e41937c9d1737756c6', '35': '8d0df57ed556a1df5d045f52e76ba4bf33679271f9a7ae3e0cb575b7ebf6f2c2', '36': 'a60c23c1b2f601a23bf95333c413ec6a22ef339b4a5c077d1abe41104dbc5fa7', '37': 'd282bd0b9abe3478084ec37ebbdbf800cd93a9a51083252d193447ade3d093c5', '38': '9b8d4d1380c5e50498cf565fbc2689ae61b7bf0926698861321f76af512dec44', '39': '52d5d957d09b7eda777549df6a7c1a48afd080d842f801a7b98b1f4a5a44e1fd', '4': '24f007938746b758327aad4735cc1d724c5d4a9048da40f49f8ae796d6d78490', '40': 'cdbbd508829413a819996b263abf11e77a13cdb263e161efeb430c9e3ad7a522', '41': '3603147673886b02df01d8cd1895e4331bed263541b4cf3c04727d26fe59fe7b', '42': 'f0231bfc0ee9f6d17b8daf1c678c3ea86b1ae66cfaf5a5e06455d026059616df', '43': '90f8355968490e7fa8d40760b0700af95f68d99db48f07f3ca49f8ed0e231f27', '44': 'fc4a2dce65927390675d840aa71b9c977cedcd835ed765b65753afd870d5105b', '45': '01bb5646e8e3dccaf63220523184fff751f8cb51f8a094d2789318fd51a10b6c', '46': '8ed66591e0c0a3741e93c2ab08da56657e663b9d30a7b3300190d5f9f30036ea', '47': '800ad8d2308d3f3a354782e2577d1b4ed1a672c764acbbe626eacdc903d2f6ae', '48': 'e3c8a52d9abb0736b1cb40bb11348f50b39aa176da822c65da1a9b9ef252c9c4', '49': 'd641dc75588be1ef279c24f8c8842291866f168b6cd71c7a492b224523ed45b5', '5': '057dd1711e154b9a30c23c740b7562d4569e3731f6261f6249371acac93a64d1', '6': '53b5f8f5f12ebfdcb256c3812961baa3d7b180a72eeb4bf71e1bcb7b657c3086', '7': 'a28d0d98d3776fe52c7b1afcd6d9dc127732972554dfdbd37b279b0a4d4f8fb0', '8': '313ab218cf36f441d6edf05977ac6caf992013cdc88b93bf9386a172c3492fbb', '9': '54d60aff2f4e9c8c71c8759daba3407d2205e9d69e2c1fe99517b9033eb3979c'}
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): devnet-api.elrond.com:443
+urllib3.connectionpool - DEBUG - https://devnet-api.elrond.com:443 "GET /transactions?hashes=70349c98dc0b68e220ba8216529aa6f97faa3a2ec078da7ddc1c647696443e65,d31d9cd3cf612163e7acd2fd0ea454b4184aad1e0b4285cc220405006adc65ee,0306536a29d0ead84e95b9e55537689bf8578a52d84ef6f40e53cfa6fef252d7,d4f661056788f56139060a745006ab6e7db7043b648c2b4cbf3c0cccc5e54492,e7c43ccaee0985ccbcf4ff8ad9662ea2183cc463a8b9a734d3ef888cad2cdd41,2cc9fd894efd91946be63ed49a1d4a5dcccd7450035e3e321adb81e58877c611,57c9c83050a00f03dea4eee9c6368abd207b2ee31572f49a99f388d3d0b3d63b,300c254a8b1dd7ab967dffe50b67ff723bdb83e9525137fd4a3e68c63a350612,5a070c09b4da35aaef5562e6caa27d1f93485f20bd7a94921d2cfe2e1b56df8a,3317485ec9375843e8f7d077f5027577cf45da07b31841b6ae50b435fa4762b0,b6dfc234a12d217cb9ac781b918c7b8eae547db0d3793df8c6ea123c7a32d3d8,01f9edeb56db320f536b6ba495fccd2c895c5fce9de57e00fdc035514abe9269,dc895d6f3d67691e4f2d3e30bb4f935d41204a18f565a5d5a34547c0e20af3cd,3f0531c48cbfd5ea0a21164235a0832852c96904f281925e654cd9c55b3ec67a,be1aa68ef57edaf0f1bdf32b911badc4363539b9e9506a104a9a51bbbcd9bd41,8d3633f4f57aae954f94fd7b82b8f7ac5721be9bdb9c7904a083bba276fcc21b,77dff06b4fc92153086d3a103db3d03455d5d3b37d72b4c6de17465824e0e1ce,ff2f2da86c3fd82b9e568de3169f5353a3b46c4bf9d19feebebaea8520c8b264,d60ddb46e65415d64cc11df7fb8f1dce011e3eb7306b85d95b5241028c5954ed,874e5b58a80b28994bad2a1c84b6f2ab65f9f361c74709653ca790c77ef24b10,e471a0374901e1443f421d939969e27828edf93e0078eb4df20173c3cd6d9824,128cf4541922cdae8f1195e7140deb2e04f8e9184a5da777f5013986900d4d63,90e6383a5181cb7459abf8ab56bfb844419a803df7e6ca14cbc2ee4fdb2a20a5,24b59d922df49a35a8ddb60a890ad309f4b18f9fec0d53a593d768fb19d54e75,ed010ee53b26123e5420a8cdea07c3ca456f56f300f51b08eb78cbbfac796ade,9c3e0d4d5789e8b289cb8799e693698d6504b077528ac87f0752cef5476719a9,58459ef9e87ccf6b2c757e2cda621ccee18e7521856621d40cf678b633ec0442,29034df6fffa1b28870068a48693b882da15b0f683de92fbdeaf07018d4b04a8,1c51927fc9183f7caf71b3ff87571902f0a707d7fb76a8e41937c9d1737756c6,8d0df57ed556a1df5d045f52e76ba4bf33679271f9a7ae3e0cb575b7ebf6f2c2,a60c23c1b2f601a23bf95333c413ec6a22ef339b4a5c077d1abe41104dbc5fa7,d282bd0b9abe3478084ec37ebbdbf800cd93a9a51083252d193447ade3d093c5,9b8d4d1380c5e50498cf565fbc2689ae61b7bf0926698861321f76af512dec44,52d5d957d09b7eda777549df6a7c1a48afd080d842f801a7b98b1f4a5a44e1fd,24f007938746b758327aad4735cc1d724c5d4a9048da40f49f8ae796d6d78490,cdbbd508829413a819996b263abf11e77a13cdb263e161efeb430c9e3ad7a522,3603147673886b02df01d8cd1895e4331bed263541b4cf3c04727d26fe59fe7b,f0231bfc0ee9f6d17b8daf1c678c3ea86b1ae66cfaf5a5e06455d026059616df,90f8355968490e7fa8d40760b0700af95f68d99db48f07f3ca49f8ed0e231f27,fc4a2dce65927390675d840aa71b9c977cedcd835ed765b65753afd870d5105b,01bb5646e8e3dccaf63220523184fff751f8cb51f8a094d2789318fd51a10b6c,8ed66591e0c0a3741e93c2ab08da56657e663b9d30a7b3300190d5f9f30036ea,800ad8d2308d3f3a354782e2577d1b4ed1a672c764acbbe626eacdc903d2f6ae,e3c8a52d9abb0736b1cb40bb11348f50b39aa176da822c65da1a9b9ef252c9c4,d641dc75588be1ef279c24f8c8842291866f168b6cd71c7a492b224523ed45b5,057dd1711e154b9a30c23c740b7562d4569e3731f6261f6249371acac93a64d1,53b5f8f5f12ebfdcb256c3812961baa3d7b180a72eeb4bf71e1bcb7b657c3086,a28d0d98d3776fe52c7b1afcd6d9dc127732972554dfdbd37b279b0a4d4f8fb0,313ab218cf36f441d6edf05977ac6caf992013cdc88b93bf9386a172c3492fbb,54d60aff2f4e9c8c71c8759daba3407d2205e9d69e2c1fe99517b9033eb3979c HTTP/1.1" 200 93878
+accounts - INFO - Account.sync_nonce()
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): devnet-gateway.elrond.com:443
+urllib3.connectionpool - DEBUG - https://devnet-gateway.elrond.com:443 "GET /address/erd1hh7gte28hahk9htwlhzf3gretusckhrqf4y6xv5p9qwznhn7y4wswnzua3 HTTP/1.1" 200 333
+accounts - INFO - Account.sync_nonce() done: 10460
+root - DEBUG - Karma-Stickma: Quickie (Male - Male) #9
+root - DEBUG - Karma-Stickma: Quickie (Male - Male) #10
+root - DEBUG - Karma-Stickma: Quickie (Male - Male) #11
+root - DEBUG - Karma-Stickma: Quickie (Male - Male) #12
+root - DEBUG - Karma-Stickma: Quickie (Male - Male) #13
+root - DEBUG - Karma-Stickma: Quickie (Male - Male) #14
+root - DEBUG - Karma-Stickma: Quickie (Male - Male) #15
+root - DEBUG - Karma-Stickma: Quickie (Male - Male) #16
+root - DEBUG - Karma-Stickma: Quickie (Female - Female) #1
+root - DEBUG - Karma-Stickma: Quickie (Female - Female) #2
+root - DEBUG - Karma-Stickma: Quickie (Female - Female) #3
+root - DEBUG - Karma-Stickma: Quickie (Female - Female) #4
+root - DEBUG - Karma-Stickma: Quickie (Female - Female) #5
+root - DEBUG - Karma-Stickma: Quickie (Female - Female) #6
+root - DEBUG - Karma-Stickma: Quickie (Female - Female) #7
+root - DEBUG - Karma-Stickma: Quickie (Female - Female) #8
+root - DEBUG - Karma-Stickma: Quickie (Female - Female) #9
+root - DEBUG - Karma-Stickma: Quickie (Female - Female) #10
+root - DEBUG - Karma-Stickma: Quickie (Female - Female) #11
+root - DEBUG - Karma-Stickma: Quickie (Female - Female) #12
+root - DEBUG - Karma-Stickma: Quickie (Female - Female) #13
+root - DEBUG - Karma-Stickma: Quickie (Female - Female) #14
+root - DEBUG - Karma-Stickma: Quickie (Female - Female) #15
+root - DEBUG - Karma-Stickma: Quickie (Female - Female) #16
+root - DEBUG - Karma-Stickma: Quickie (Male - Female) #1
+root - DEBUG - Karma-Stickma: Quickie (Male - Female) #2
+root - DEBUG - Karma-Stickma: Quickie (Male - Female) #3
+root - DEBUG - Karma-Stickma: Quickie (Male - Female) #4
+root - DEBUG - Karma-Stickma: Quickie (Male - Female) #5
+root - DEBUG - Karma-Stickma: Quickie (Male - Female) #6
+root - DEBUG - Karma-Stickma: Quickie (Male - Female) #7
+root - DEBUG - Karma-Stickma: Quickie (Male - Female) #8
+root - DEBUG - Karma-Stickma: Quickie (Male - Female) #9
+root - DEBUG - Karma-Stickma: Quickie (Male - Female) #10
+root - DEBUG - Karma-Stickma: Quickie (Male - Female) #11
+root - DEBUG - Karma-Stickma: Quickie (Male - Female) #12
+root - DEBUG - Karma-Stickma: Quickie (Male - Female) #13
+root - DEBUG - Karma-Stickma: Quickie (Male - Female) #14
+root - DEBUG - Karma-Stickma: Quickie (Male - Female) #15
+root - DEBUG - Karma-Stickma: Quickie (Male - Female) #16
+root - DEBUG - Karma-Stickma: Missionary (Male - Male) #1
+root - DEBUG - Karma-Stickma: Missionary (Male - Male) #2
+root - DEBUG - Karma-Stickma: Missionary (Male - Male) #3
+root - DEBUG - Karma-Stickma: Missionary (Male - Male) #4
+root - DEBUG - Karma-Stickma: Missionary (Male - Male) #5
+root - DEBUG - Karma-Stickma: Missionary (Male - Male) #6
+root - DEBUG - Karma-Stickma: Missionary (Male - Male) #7
+root - DEBUG - Karma-Stickma: Missionary (Male - Male) #8
+root - DEBUG - Karma-Stickma: Missionary (Male - Male) #9
+root - DEBUG - Karma-Stickma: Missionary (Male - Male) #10
+transactions - INFO - BunchOfTransactions.send: 50 transactions
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): devnet-gateway.elrond.com:443
+urllib3.connectionpool - DEBUG - https://devnet-gateway.elrond.com:443 "POST /transaction/send-multiple HTTP/1.1" 200 None
+transactions - INFO - Sent: 50
+transactions - INFO - TxsHashes: {'0': '38a67de6b9bb0ac1f9ac5f48d30d00633bf1865279707f3370f97b4076768582', '1': 'b896f9cbeddde9cd623b570eef7e87cf701cda914fb650b5a51e10be1c2259dd', '10': 'ec37af998c7274d074af9cba347dea81ed27a05e943a13f6e0cfcbcfdb127fef', '11': 'db65c179735e77c03a238f369e9aeed0dc66a58424ff5edf44d124c64e1e5d7b', '12': '3362bf6597ff1e14953837b3cee1ee8fe661a703fb61a80aa42d7c8e018907de', '13': 'f05b3ecf8790d511a995780c81a743daabc2cfca1736ad04f269ef6139d0311c', '14': '85fbe6d345c1dfc7e331b7d842cae64d19cce69f2697a2180e1a761b3203b854', '15': 'e68e03d2c523d9f92f11265029308487f478d5fd51e0b77816779e1a0a7a2943', '16': '09db0bedbdae55303610e025e7b47228b62b88f9518c6a9f60b3a2f910f98787', '17': '48b453dd4aec4a1c84fe54a20cca508ffba2918811da3ce34a8478ca065dab97', '18': 'c8d9bef451487cb9d91620cfc906bc1c8ff4222c6082e99b41b8936904dd11ce', '19': '249f2ce49bddd83663b8fadafb4af1f819874d6dd9625c4dbd36d7cdb9475044', '2': '9122bd6ae0b0a1206df458d7e17a361670373e3395257522c2e8ab91779b7339', '20': '9215131d8ccf577a342415ff403330bb9b4d4ef8cd62d19c9ee93cb82ca83830', '21': '6ab883149a7e20428b3211d78de32ea4e9a519f4f51923a3f0fe140a33694a88', '22': 'cfb51a54532f2e609266a5977d2f3ed6df32f91707bbfe9508acd048bcf58593', '23': 'b2e14c5b68ad6f0b1eb655a15b0a2ee3aa233a4226c8cca78baeda1e26dda412', '24': '0ee016cf2b32e2097040e920637aa9acd6d5b656d978d64f9d10b649f74f3e12', '25': '6d415b40642441d27c66d9b300e412e6198cd34b81fc25d298a13ac680a73a26', '26': '9798b7d1099ff8a4526b390ac2df9d886beb6fa0b28b3bbfccf7ac0ae00c3181', '27': '6bd4a6b60c186b126abe620de075156031817f508eb358624c3ccdd92a8a82de', '28': '11761a5b20f96750c55ebed1af73c21c1533518173dc514a1715687db72baad6', '29': 'c7261b243aedf46d385188c9e341de76dfb77e32067b3f139675320335c0e57d', '3': '1d34ac46cd700812438d13c985f497379c29eba5794cc97079e22d0189bb2715', '30': 'b2e06559c17b878e540ca3032dfb4b9017e55969ba62bdaec6fcdad501a7135c', '31': 'd01f2823b003e6a1535329a3be972f23ab0046ac3dec46fa92fd2a4db2f25c88', '32': 'a75d5a6725d9031d59c8b32350b8b3e482f5d14f5dbc414978ef093d56a8d1da', '33': 'd9f98429a292494b50052bb47febe0a6d5a9edaa363ac5cf1f0ac6fabc040f49', '34': '9eb0d1670d6761b3eb358116c3b28519d5fa397eff0c59fe258d1d971e1918a3', '35': '6a44493cf76c63c7356e97d75750b20187d747c1c5ad44543cab961e33a1aedb', '36': '1b798800992f101f00b300994fdc9b4453ba84c69a963d965d4be49eb22fa432', '37': '6ff35918f80348c69513aefe97ffa07b83aef73e3dab82775f210859971ae047', '38': 'cd1c2a950feb3f75291f8b11698b350d3a32a4c7fde03de42f204b5058bf3038', '39': '245746ac5e8f6a90c28d779dc116df95a734c753dff7608d399c390989f19699', '4': 'f5c5f6766bc476af6d134f900fd912dffe76e07a105847774cc793800d799342', '40': '087ed95d9226f93d45613f55709f6e0eb1fccdbe357094e91e972f101f3b91f6', '41': '0d9befb0391184d95ccc5a570264d9b77f44903bc2495025f129f48ad9c3376f', '42': '52025f2a0246e019465601ba71fd1251d83e3dea62917192b01295b126c6ad0d', '43': '02c3885425f910a6b52cf03e66b20a9a0dd7b7079d7ad05958d4d1aaf8df445d', '44': 'af3a5731d3ea40b01c41db5ab33bec7f071780bb9d764b769a2e1a8de5efaf7b', '45': 'e4cc8dbd145f011bbda749cc32fa893bb54237accef1ff526c660a9a6ee2c1ba', '46': '2503b3584f0afd754d5bb8780e7124a7dfdd2d2e8a1c67a6d0d49c5b9a78815c', '47': 'e91b4e8f9dfd7ea80763b40152e80f9fbb0d7bbd58cca485950d2c2cd16b5509', '48': 'c473342017a76d33f53a48e499a17b5101dfedd70d961118453043b0429c5ed0', '49': '2ba648c82c5c4e08b352b311533cb39a5db804ade1782ec4308f045630daccfd', '5': '2b81a3f531a2c7fb8cd8d015c917c89d248dbfcd703c383b94f424a72a976039', '6': 'f4dea72a01066ba438a47297f9f19b9e3e3c42aec4381e0b47fb254dd1739709', '7': 'f55e6362859b25c073a01cf5a5335f132539ca510e9e32cedd92a87c4b78cd56', '8': 'ed80e59b9769c9e01abbc954cead954b64193ff38db8f8f173667520af665b59', '9': '6056d69eee6402dd1321e538849d7c086c110cf8ec95ca09f675b7d783d32249'}
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): devnet-api.elrond.com:443
+urllib3.connectionpool - DEBUG - https://devnet-api.elrond.com:443 "GET /transactions?hashes=38a67de6b9bb0ac1f9ac5f48d30d00633bf1865279707f3370f97b4076768582,b896f9cbeddde9cd623b570eef7e87cf701cda914fb650b5a51e10be1c2259dd,ec37af998c7274d074af9cba347dea81ed27a05e943a13f6e0cfcbcfdb127fef,db65c179735e77c03a238f369e9aeed0dc66a58424ff5edf44d124c64e1e5d7b,3362bf6597ff1e14953837b3cee1ee8fe661a703fb61a80aa42d7c8e018907de,f05b3ecf8790d511a995780c81a743daabc2cfca1736ad04f269ef6139d0311c,85fbe6d345c1dfc7e331b7d842cae64d19cce69f2697a2180e1a761b3203b854,e68e03d2c523d9f92f11265029308487f478d5fd51e0b77816779e1a0a7a2943,09db0bedbdae55303610e025e7b47228b62b88f9518c6a9f60b3a2f910f98787,48b453dd4aec4a1c84fe54a20cca508ffba2918811da3ce34a8478ca065dab97,c8d9bef451487cb9d91620cfc906bc1c8ff4222c6082e99b41b8936904dd11ce,249f2ce49bddd83663b8fadafb4af1f819874d6dd9625c4dbd36d7cdb9475044,9122bd6ae0b0a1206df458d7e17a361670373e3395257522c2e8ab91779b7339,9215131d8ccf577a342415ff403330bb9b4d4ef8cd62d19c9ee93cb82ca83830,6ab883149a7e20428b3211d78de32ea4e9a519f4f51923a3f0fe140a33694a88,cfb51a54532f2e609266a5977d2f3ed6df32f91707bbfe9508acd048bcf58593,b2e14c5b68ad6f0b1eb655a15b0a2ee3aa233a4226c8cca78baeda1e26dda412,0ee016cf2b32e2097040e920637aa9acd6d5b656d978d64f9d10b649f74f3e12,6d415b40642441d27c66d9b300e412e6198cd34b81fc25d298a13ac680a73a26,9798b7d1099ff8a4526b390ac2df9d886beb6fa0b28b3bbfccf7ac0ae00c3181,6bd4a6b60c186b126abe620de075156031817f508eb358624c3ccdd92a8a82de,11761a5b20f96750c55ebed1af73c21c1533518173dc514a1715687db72baad6,c7261b243aedf46d385188c9e341de76dfb77e32067b3f139675320335c0e57d,1d34ac46cd700812438d13c985f497379c29eba5794cc97079e22d0189bb2715,b2e06559c17b878e540ca3032dfb4b9017e55969ba62bdaec6fcdad501a7135c,d01f2823b003e6a1535329a3be972f23ab0046ac3dec46fa92fd2a4db2f25c88,a75d5a6725d9031d59c8b32350b8b3e482f5d14f5dbc414978ef093d56a8d1da,d9f98429a292494b50052bb47febe0a6d5a9edaa363ac5cf1f0ac6fabc040f49,9eb0d1670d6761b3eb358116c3b28519d5fa397eff0c59fe258d1d971e1918a3,6a44493cf76c63c7356e97d75750b20187d747c1c5ad44543cab961e33a1aedb,1b798800992f101f00b300994fdc9b4453ba84c69a963d965d4be49eb22fa432,6ff35918f80348c69513aefe97ffa07b83aef73e3dab82775f210859971ae047,cd1c2a950feb3f75291f8b11698b350d3a32a4c7fde03de42f204b5058bf3038,245746ac5e8f6a90c28d779dc116df95a734c753dff7608d399c390989f19699,f5c5f6766bc476af6d134f900fd912dffe76e07a105847774cc793800d799342,087ed95d9226f93d45613f55709f6e0eb1fccdbe357094e91e972f101f3b91f6,0d9befb0391184d95ccc5a570264d9b77f44903bc2495025f129f48ad9c3376f,52025f2a0246e019465601ba71fd1251d83e3dea62917192b01295b126c6ad0d,02c3885425f910a6b52cf03e66b20a9a0dd7b7079d7ad05958d4d1aaf8df445d,af3a5731d3ea40b01c41db5ab33bec7f071780bb9d764b769a2e1a8de5efaf7b,e4cc8dbd145f011bbda749cc32fa893bb54237accef1ff526c660a9a6ee2c1ba,2503b3584f0afd754d5bb8780e7124a7dfdd2d2e8a1c67a6d0d49c5b9a78815c,e91b4e8f9dfd7ea80763b40152e80f9fbb0d7bbd58cca485950d2c2cd16b5509,c473342017a76d33f53a48e499a17b5101dfedd70d961118453043b0429c5ed0,2ba648c82c5c4e08b352b311533cb39a5db804ade1782ec4308f045630daccfd,2b81a3f531a2c7fb8cd8d015c917c89d248dbfcd703c383b94f424a72a976039,f4dea72a01066ba438a47297f9f19b9e3e3c42aec4381e0b47fb254dd1739709,f55e6362859b25c073a01cf5a5335f132539ca510e9e32cedd92a87c4b78cd56,ed80e59b9769c9e01abbc954cead954b64193ff38db8f8f173667520af665b59,6056d69eee6402dd1321e538849d7c086c110cf8ec95ca09f675b7d783d32249 HTTP/1.1" 200 94462
+accounts - INFO - Account.sync_nonce()
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): devnet-gateway.elrond.com:443
+urllib3.connectionpool - DEBUG - https://devnet-gateway.elrond.com:443 "GET /address/erd1hh7gte28hahk9htwlhzf3gretusckhrqf4y6xv5p9qwznhn7y4wswnzua3 HTTP/1.1" 200 333
+accounts - INFO - Account.sync_nonce() done: 10510
+root - DEBUG - Karma-Stickma: Missionary (Male - Male) #11
+root - DEBUG - Karma-Stickma: Missionary (Male - Male) #12
+root - DEBUG - Karma-Stickma: Missionary (Male - Male) #13
+root - DEBUG - Karma-Stickma: Missionary (Male - Male) #14
+root - DEBUG - Karma-Stickma: Missionary (Male - Male) #15
+root - DEBUG - Karma-Stickma: Missionary (Male - Male) #16
+root - DEBUG - Karma-Stickma: Missionary (Female - Female) #1
+root - DEBUG - Karma-Stickma: Missionary (Female - Female) #2
+root - DEBUG - Karma-Stickma: Missionary (Female - Female) #3
+root - DEBUG - Karma-Stickma: Missionary (Female - Female) #4
+root - DEBUG - Karma-Stickma: Missionary (Female - Female) #5
+root - DEBUG - Karma-Stickma: Missionary (Female - Female) #6
+root - DEBUG - Karma-Stickma: Missionary (Female - Female) #7
+root - DEBUG - Karma-Stickma: Missionary (Female - Female) #8
+root - DEBUG - Karma-Stickma: Missionary (Female - Female) #9
+root - DEBUG - Karma-Stickma: Missionary (Female - Female) #10
+root - DEBUG - Karma-Stickma: Missionary (Female - Female) #11
+root - DEBUG - Karma-Stickma: Missionary (Female - Female) #12
+root - DEBUG - Karma-Stickma: Missionary (Female - Female) #13
+root - DEBUG - Karma-Stickma: Missionary (Female - Female) #14
+root - DEBUG - Karma-Stickma: Missionary (Female - Female) #15
+root - DEBUG - Karma-Stickma: Missionary (Female - Female) #16
+root - DEBUG - Karma-Stickma: Missionary (Male - Female) #1
+root - DEBUG - Karma-Stickma: Missionary (Male - Female) #2
+root - DEBUG - Karma-Stickma: Missionary (Male - Female) #3
+root - DEBUG - Karma-Stickma: Missionary (Male - Female) #4
+root - DEBUG - Karma-Stickma: Missionary (Male - Female) #5
+root - DEBUG - Karma-Stickma: Missionary (Male - Female) #6
+root - DEBUG - Karma-Stickma: Missionary (Male - Female) #7
+root - DEBUG - Karma-Stickma: Missionary (Male - Female) #8
+root - DEBUG - Karma-Stickma: Missionary (Male - Female) #9
+root - DEBUG - Karma-Stickma: Missionary (Male - Female) #10
+root - DEBUG - Karma-Stickma: Missionary (Male - Female) #11
+root - DEBUG - Karma-Stickma: Missionary (Male - Female) #12
+root - DEBUG - Karma-Stickma: Missionary (Male - Female) #13
+root - DEBUG - Karma-Stickma: Missionary (Male - Female) #14
+root - DEBUG - Karma-Stickma: Missionary (Male - Female) #15
+root - DEBUG - Karma-Stickma: Missionary (Male - Female) #16
+root - DEBUG - Karma-Stickma: Legs Up (Male - Male) #1
+root - DEBUG - Karma-Stickma: Legs Up (Male - Male) #2
+root - DEBUG - Karma-Stickma: Legs Up (Male - Male) #3
+root - DEBUG - Karma-Stickma: Legs Up (Male - Male) #4
+root - DEBUG - Karma-Stickma: Legs Up (Male - Male) #5
+root - DEBUG - Karma-Stickma: Legs Up (Male - Male) #6
+root - DEBUG - Karma-Stickma: Legs Up (Male - Male) #7
+root - DEBUG - Karma-Stickma: Legs Up (Male - Male) #8
+root - DEBUG - Karma-Stickma: Legs Up (Male - Male) #9
+root - DEBUG - Karma-Stickma: Legs Up (Male - Male) #10
+root - DEBUG - Karma-Stickma: Legs Up (Male - Male) #11
+root - DEBUG - Karma-Stickma: Legs Up (Male - Male) #12
+transactions - INFO - BunchOfTransactions.send: 50 transactions
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): devnet-gateway.elrond.com:443
+urllib3.connectionpool - DEBUG - https://devnet-gateway.elrond.com:443 "POST /transaction/send-multiple HTTP/1.1" 200 None
+transactions - INFO - Sent: 50
+transactions - INFO - TxsHashes: {'0': 'b4ef18c3af90fea1a0a9a0cd8c8a1842a31626f9b49379f6ce33aa20e8879645', '1': 'eafa7b93d16069d9b109d07d7f85c93a061257e51cf2275f8a5df0e7bfdaee03', '10': '3219e39c5860beb355a8a9c39992a34d6a9b6c621098e6337c413b9a6d554a6f', '11': 'dc1b71c45c9669ad129b9cf919826088c6748423077c58c0063cd4496e0be86f', '12': '4e6a766fac971d684e9eeacfaeba7dc35d15cdbbbd97ae10d5f8df52ab54d0c0', '13': '08635a9deb16297393c73796ca2f0800c4ad9e08c5031354b2982eb46d0a97fe', '14': '369320070543d55d8e1d15259942d3645c21fdd845ec4fb387a08b70f6c9c60f', '15': 'cf1d9597d5574763018d4a38ce618f8f40f1c24c2f7223fbe52060872b6dcdd0', '16': 'f11ebcecc2ad49bb83c4ed2ca47f7ad6b9fc1ccd9d0be4657d5979b39bf369eb', '17': '96ad03eca3e5188c76237e6c69934403d4a4ad86c6bcf38aaef6c0bf745b163e', '18': '3954f54e37134e6870cf483f800733a2a56526e0eaf70ff9659ae8bea334a685', '19': 'b7514b855edf2dcf6a6742849ff41b5d508b03631599e02d2a53a6d785d64742', '2': 'b7e647553a04890a6da86bda1d01e11c70d3f354e11244ee351eb15dc5ff1a13', '20': '39d1041ae329002c117c7a3f984420c7dabf78c6141136e430ee27a9df63f502', '21': 'df4fabc9eaa7da213d67f4458e506e885748782340a4e460803f38e5364dfc0f', '22': 'ab0d4aa9b86397d404634651f27edddffce6f37190d470145cf12573ac6bd5fe', '23': 'e5f62224372dfa6746d5f138b36c1444d8b0860824b52323f4ff6f0acb9c3408', '24': '397918b3cbdb67ab090c8aeb1f90864e89478b85fbcca3b8335de0715d1592f9', '25': '91476a6366451b0e30f2484c8474d9257423353f35bcc64c88c712908fa53ad6', '26': '4a9415f4f714bd0f3ef46cf0143798655a4ca3abb1c74507463356627255af65', '27': '8984863b5ad808795898bf8d4ffcd6c2200d98ffbba7d07dcffab9eadab9a37b', '28': '862936e1f6bead830185ec0b9c02006bf000a64d23991f665378bda6e98023a2', '29': 'ae66aba7db73ef45fd47ad17c366562baa1fbb0bd64a8e17fc7aff8fbba7c947', '3': 'f1292282d7a68cf72a6dd8b8d5fedebde4559d8bdf216ad51fa0d5b48d3676a9', '30': 'f769453583b85ec0576a8df29f0ae85dc14af36ea83ce157bffba18a0109935b', '31': 'd04c63e9d3413fd612e593866ac7d4d5e84ccd0effe988bdaee87e8ad4effaa2', '32': '4889bbe64f7834675132bbee5e67509ab0b3a2df6ded53116e7e063b2f6bb8f0', '33': 'acb449ed87a25717eddb4a607868c6d154e540d68771062a669d8643e2dbd1f6', '34': '94b4f8b8915322741ae2a9f83b342add73fd108cb275186de021516e19cde6a6', '35': '48ad65bbc354ecc3ee1a3d02a87da3cb1f0cb710f677d7fbc246ee6f5fb6a31a', '36': '236ebbd0037ba095b4b3c59091b3ce4f9b36cebf58c785f03b6542ba3965ea2f', '37': 'e811a5e513f883846fbe319d18f9cf17a6d0c5ee1fefd750537aa8a0997e5d6f', '38': 'cfb98daceb45056c48fb694f00903c8719a185f5548384b1461b218cc81d577f', '39': 'a2de2b08addb11c35a956c8c95cf963a9e1753ea57e8d99cac280e1e3068d911', '4': '39b20179447caaec86370acf062e4bd85d2c7c17a90bc93f680f3a6c62172c62', '40': 'c0d65d9328a8cc7fb92d7b600344bf9e45df3907116d9aff2ecb249a79352b46', '41': 'b988eb5cd14702ccd6abbc55eb33270ab9e6bed1dd7fcf0e10e2b12c85f4cd9e', '42': '2c49da1b316bf7f4e94b1f956b2d0e0c8c970556597323849019a02d5fb0faec', '43': '61b62e1e02960ce4457e2d12ebfeef09e4f2ae9fcb217d703a7c2f23f37834c6', '44': '39618dffafe9512936cdafa2b58afc0318d5b952289e1140b28a3455149eda06', '45': '81e4b3423095da60d6dea727b77bd8562f26a1ce052f5f9dc5336c67155bf2c3', '46': 'c37ad92a3ba89618fadaaf35fb09a812221bed80a65ad1c043224eb59e14e3ef', '47': '41b397d92b5fb1e65fd4416e42ef5462414de9fa880ead97c2ee2daa2b8ee594', '48': 'e3a28d88b0aef6458b032e9a3d40a2b00a40269bc6681eb13bbd42359937263b', '49': '7559947dccc599ef85713a49ccd3e7d9ab5516f3c73054cbf2cf5926ef7d06b1', '5': '8a85a8089f7df9164b3e4ad449454aedfc51221a68aa8744341293b39a96e890', '6': 'e41cbace07bfcb4d8bce003b9a01cd50058d67f0600b67e0252332740ad249a5', '7': 'de9b3bfc0e3eee84c69e934339784a2012f21d249c02947eef4e3c7558bd0036', '8': 'b9a8694db896c6a8357f474ddcecd847b25aaf3db9a4eb39245cdc8f0e7023c3', '9': '47a3fc8b43e6188a7c995fe3997ee6a908d10d68e83c80261e4e178125515a06'}
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): devnet-api.elrond.com:443
+urllib3.connectionpool - DEBUG - https://devnet-api.elrond.com:443 "GET /transactions?hashes=b4ef18c3af90fea1a0a9a0cd8c8a1842a31626f9b49379f6ce33aa20e8879645,eafa7b93d16069d9b109d07d7f85c93a061257e51cf2275f8a5df0e7bfdaee03,3219e39c5860beb355a8a9c39992a34d6a9b6c621098e6337c413b9a6d554a6f,dc1b71c45c9669ad129b9cf919826088c6748423077c58c0063cd4496e0be86f,4e6a766fac971d684e9eeacfaeba7dc35d15cdbbbd97ae10d5f8df52ab54d0c0,08635a9deb16297393c73796ca2f0800c4ad9e08c5031354b2982eb46d0a97fe,369320070543d55d8e1d15259942d3645c21fdd845ec4fb387a08b70f6c9c60f,cf1d9597d5574763018d4a38ce618f8f40f1c24c2f7223fbe52060872b6dcdd0,f11ebcecc2ad49bb83c4ed2ca47f7ad6b9fc1ccd9d0be4657d5979b39bf369eb,96ad03eca3e5188c76237e6c69934403d4a4ad86c6bcf38aaef6c0bf745b163e,3954f54e37134e6870cf483f800733a2a56526e0eaf70ff9659ae8bea334a685,b7514b855edf2dcf6a6742849ff41b5d508b03631599e02d2a53a6d785d64742,b7e647553a04890a6da86bda1d01e11c70d3f354e11244ee351eb15dc5ff1a13,39d1041ae329002c117c7a3f984420c7dabf78c6141136e430ee27a9df63f502,df4fabc9eaa7da213d67f4458e506e885748782340a4e460803f38e5364dfc0f,ab0d4aa9b86397d404634651f27edddffce6f37190d470145cf12573ac6bd5fe,e5f62224372dfa6746d5f138b36c1444d8b0860824b52323f4ff6f0acb9c3408,397918b3cbdb67ab090c8aeb1f90864e89478b85fbcca3b8335de0715d1592f9,91476a6366451b0e30f2484c8474d9257423353f35bcc64c88c712908fa53ad6,4a9415f4f714bd0f3ef46cf0143798655a4ca3abb1c74507463356627255af65,8984863b5ad808795898bf8d4ffcd6c2200d98ffbba7d07dcffab9eadab9a37b,862936e1f6bead830185ec0b9c02006bf000a64d23991f665378bda6e98023a2,ae66aba7db73ef45fd47ad17c366562baa1fbb0bd64a8e17fc7aff8fbba7c947,f1292282d7a68cf72a6dd8b8d5fedebde4559d8bdf216ad51fa0d5b48d3676a9,f769453583b85ec0576a8df29f0ae85dc14af36ea83ce157bffba18a0109935b,d04c63e9d3413fd612e593866ac7d4d5e84ccd0effe988bdaee87e8ad4effaa2,4889bbe64f7834675132bbee5e67509ab0b3a2df6ded53116e7e063b2f6bb8f0,acb449ed87a25717eddb4a607868c6d154e540d68771062a669d8643e2dbd1f6,94b4f8b8915322741ae2a9f83b342add73fd108cb275186de021516e19cde6a6,48ad65bbc354ecc3ee1a3d02a87da3cb1f0cb710f677d7fbc246ee6f5fb6a31a,236ebbd0037ba095b4b3c59091b3ce4f9b36cebf58c785f03b6542ba3965ea2f,e811a5e513f883846fbe319d18f9cf17a6d0c5ee1fefd750537aa8a0997e5d6f,cfb98daceb45056c48fb694f00903c8719a185f5548384b1461b218cc81d577f,a2de2b08addb11c35a956c8c95cf963a9e1753ea57e8d99cac280e1e3068d911,39b20179447caaec86370acf062e4bd85d2c7c17a90bc93f680f3a6c62172c62,c0d65d9328a8cc7fb92d7b600344bf9e45df3907116d9aff2ecb249a79352b46,b988eb5cd14702ccd6abbc55eb33270ab9e6bed1dd7fcf0e10e2b12c85f4cd9e,2c49da1b316bf7f4e94b1f956b2d0e0c8c970556597323849019a02d5fb0faec,61b62e1e02960ce4457e2d12ebfeef09e4f2ae9fcb217d703a7c2f23f37834c6,39618dffafe9512936cdafa2b58afc0318d5b952289e1140b28a3455149eda06,81e4b3423095da60d6dea727b77bd8562f26a1ce052f5f9dc5336c67155bf2c3,c37ad92a3ba89618fadaaf35fb09a812221bed80a65ad1c043224eb59e14e3ef,41b397d92b5fb1e65fd4416e42ef5462414de9fa880ead97c2ee2daa2b8ee594,e3a28d88b0aef6458b032e9a3d40a2b00a40269bc6681eb13bbd42359937263b,7559947dccc599ef85713a49ccd3e7d9ab5516f3c73054cbf2cf5926ef7d06b1,8a85a8089f7df9164b3e4ad449454aedfc51221a68aa8744341293b39a96e890,e41cbace07bfcb4d8bce003b9a01cd50058d67f0600b67e0252332740ad249a5,de9b3bfc0e3eee84c69e934339784a2012f21d249c02947eef4e3c7558bd0036,b9a8694db896c6a8357f474ddcecd847b25aaf3db9a4eb39245cdc8f0e7023c3,47a3fc8b43e6188a7c995fe3997ee6a908d10d68e83c80261e4e178125515a06 HTTP/1.1" 200 95082
+accounts - INFO - Account.sync_nonce()
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): devnet-gateway.elrond.com:443
+urllib3.connectionpool - DEBUG - https://devnet-gateway.elrond.com:443 "GET /address/erd1hh7gte28hahk9htwlhzf3gretusckhrqf4y6xv5p9qwznhn7y4wswnzua3 HTTP/1.1" 200 333
+accounts - INFO - Account.sync_nonce() done: 10560
+root - DEBUG - Karma-Stickma: Legs Up (Male - Male) #13
+root - DEBUG - Karma-Stickma: Legs Up (Male - Male) #14
+root - DEBUG - Karma-Stickma: Legs Up (Male - Male) #15
+root - DEBUG - Karma-Stickma: Legs Up (Male - Male) #16
+root - DEBUG - Karma-Stickma: Legs Up (Female - Female) #1
+root - DEBUG - Karma-Stickma: Legs Up (Female - Female) #2
+root - DEBUG - Karma-Stickma: Legs Up (Female - Female) #3
+root - DEBUG - Karma-Stickma: Legs Up (Female - Female) #4
+root - DEBUG - Karma-Stickma: Legs Up (Female - Female) #5
+root - DEBUG - Karma-Stickma: Legs Up (Female - Female) #6
+root - DEBUG - Karma-Stickma: Legs Up (Female - Female) #7
+root - DEBUG - Karma-Stickma: Legs Up (Female - Female) #8
+root - DEBUG - Karma-Stickma: Legs Up (Female - Female) #9
+root - DEBUG - Karma-Stickma: Legs Up (Female - Female) #10
+root - DEBUG - Karma-Stickma: Legs Up (Female - Female) #11
+root - DEBUG - Karma-Stickma: Legs Up (Female - Female) #12
+root - DEBUG - Karma-Stickma: Legs Up (Female - Female) #13
+root - DEBUG - Karma-Stickma: Legs Up (Female - Female) #14
+root - DEBUG - Karma-Stickma: Legs Up (Female - Female) #15
+root - DEBUG - Karma-Stickma: Legs Up (Female - Female) #16
+root - DEBUG - Karma-Stickma: Legs Up (Male - Female) #1
+root - DEBUG - Karma-Stickma: Legs Up (Male - Female) #2
+root - DEBUG - Karma-Stickma: Legs Up (Male - Female) #3
+root - DEBUG - Karma-Stickma: Legs Up (Male - Female) #4
+root - DEBUG - Karma-Stickma: Legs Up (Male - Female) #5
+root - DEBUG - Karma-Stickma: Legs Up (Male - Female) #6
+root - DEBUG - Karma-Stickma: Legs Up (Male - Female) #7
+root - DEBUG - Karma-Stickma: Legs Up (Male - Female) #8
+root - DEBUG - Karma-Stickma: Legs Up (Male - Female) #9
+root - DEBUG - Karma-Stickma: Legs Up (Male - Female) #10
+root - DEBUG - Karma-Stickma: Legs Up (Male - Female) #11
+root - DEBUG - Karma-Stickma: Legs Up (Male - Female) #12
+root - DEBUG - Karma-Stickma: Legs Up (Male - Female) #13
+root - DEBUG - Karma-Stickma: Legs Up (Male - Female) #14
+root - DEBUG - Karma-Stickma: Legs Up (Male - Female) #15
+root - DEBUG - Karma-Stickma: Legs Up (Male - Female) #16
+root - DEBUG - Karma-Stickma: Doggy (Male - Male) #1
+root - DEBUG - Karma-Stickma: Doggy (Male - Male) #2
+root - DEBUG - Karma-Stickma: Doggy (Male - Male) #3
+root - DEBUG - Karma-Stickma: Doggy (Male - Male) #4
+root - DEBUG - Karma-Stickma: Doggy (Male - Male) #5
+root - DEBUG - Karma-Stickma: Doggy (Male - Male) #6
+root - DEBUG - Karma-Stickma: Doggy (Male - Male) #7
+root - DEBUG - Karma-Stickma: Doggy (Male - Male) #8
+root - DEBUG - Karma-Stickma: Doggy (Male - Male) #9
+root - DEBUG - Karma-Stickma: Doggy (Male - Male) #10
+root - DEBUG - Karma-Stickma: Doggy (Male - Male) #11
+root - DEBUG - Karma-Stickma: Doggy (Male - Male) #12
+root - DEBUG - Karma-Stickma: Doggy (Male - Male) #13
+root - DEBUG - Karma-Stickma: Doggy (Male - Male) #14
+transactions - INFO - BunchOfTransactions.send: 50 transactions
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): devnet-gateway.elrond.com:443
+urllib3.connectionpool - DEBUG - https://devnet-gateway.elrond.com:443 "POST /transaction/send-multiple HTTP/1.1" 200 None
+transactions - INFO - Sent: 50
+transactions - INFO - TxsHashes: {'0': '5becaafcc8c08bdeb25f11e7b3a5e3b1cabe71359cbeaf8cc5fd0b2f43388a55', '1': '09abc36c8726b8e08983e728b80d9d2cc6b190cf44d219aa5b692cfbf8b3b09f', '10': 'a54bebc3de93e58ba2fd912e1af299490af87a2337ce4d0301dcd7de3cbc7447', '11': '2057d4090af7509983eb5832c49e2d9a1c3fbc693f3ba77ab05bfa05470fe16d', '12': '8496f9122e9e2f6b4fcf3c4ab185f0d63e4c66dc5e4ccc80ef7f5a5578e637d5', '13': 'bd4bed0d0c6219953aa006669fa1236d81d2624068e179234949f01494cc70c2', '14': '714deac4bfa0238c134b440d17c04e823b387e2c5ca44fca6ddaa2350502ea1f', '15': '3c81877b63722c0b1549f14d03beb0aa75112763503068a52e9b1b9e76c33b18', '16': '42da29e3dd5e72c9fbb396228b420052bd1a1bce2a74d8eb1be4349d8adb27e8', '17': '02d77c6e18485a5884d66fa5c56df5ca6174a72a77a8e413eecc13af761e7598', '18': '475e1854d0299a1ca914b2c52c2e1c24664924a40797ae1a65750bcd1f169cbf', '19': 'c9b87c3217659d8f56f7a83fc6ac729e164546d77342d2b38be7ed8c0934b0d0', '2': 'e4a4902657cafa2f361dec432e679ef3635f610254634e6fbabd99861b65095f', '20': 'a4611bab04a34f0ccbaafcb0da2205ab1418d6cb3bae0196878956145c358f17', '21': '9d1e7a2122cb58c582320f176fa764e7d00d95940964dd4fcde34892b7026ee9', '22': '3968f89013a282b2916138de6252f7985ce53fb29d4ab58758b5e0623549b0ed', '23': '45a19e9036c37b39a35eb38cf0d5b3157baabd1a11feefae18f0d1997e151490', '24': 'cc863e05c1d63115094eae08e707979481f0a9fd54cd72e4b5da5dbc9e09ec6d', '25': '7f8822501748e0a9b182f85c00e0f8d6f1f913fb50cb13aa537b68d0fc235c93', '26': '5ee0a7584f84156b94f4499853a1d36723956469a852d4610cb9335832a9c8b5', '27': '56855657bfbb075bde659b3f9e5e1a937c11fe63a9a5ff1a6ca713c59d7c2a09', '28': '15bee49a8a8281213ad39d3e4f95dce80f0246479b64fed8775454327c4f83e9', '29': 'c7839474a4fda59bee750669f7c38311e0c55bffa996f74ce6c447b036c88f82', '3': 'b7fd0b28897b891b0a6f433d7ec2d702bef946b6447725abe69f819f8273b92d', '30': 'ff916af61f64acc47b375ebbae4a423c468a8bb9c3b0e4df7904c931976a0eeb', '31': '9fbfc48313023bb40f17434e0440f45b7b2fb9561155321368633d9cfff3eae7', '32': '0cf2939dadfc360f078ffcebaf8f2f69303dd6c6af3ac83b2313a04b3d907766', '33': '9c06b1e679672a995aca801eec61f36e4570fb9ee0688c323429c07d1347c645', '34': '5790f4f0c3311af63b6ce16507533637b638f3bd5747f5c624979b4f6e73aa12', '35': '88492407ac3c56ac8a2f718b8c5b2c318591dca6f26a32497179a2091586dc4f', '36': 'e48ce21dce37394daec53245d14a18ac0ddaf06a21c863044e0d541b7929c0a3', '37': 'f245d2fbf9f34cbd7bdb374784a9d56bcf980fa8ec65f8cb295681ff766e82bd', '38': '958b21f155452375f0f684a40ec607dc297104a04bf1d7a5a085a3074696cd58', '39': '36045ff94cff5e441cde776b39e3c0bef50b79ad2a85dfc901241e48bb49b984', '4': '66afb7b9250b6f8019d7dfe2d52ab36c11b83a9503cae34f687a09d94f9b897d', '40': '61a37cb03a19491be7c264d99bbebba5dfcefd2d5bd51313a9567795f0acb254', '41': 'eef5ba88453872d8d3c08b1590bab9b093cbf290e7514d5651a8477f5a3038a8', '42': '2d2e2c05fa88a299469c30dd27108eec1598c08315a7e4d77ffaf45bbcc64b5a', '43': 'cfeb422ee698de5d434fc48e0b150714a60afa6339df2883cd29434707e2a979', '44': 'd71020a697ddc3d8be89496cf090551ca4750fbc2a89681e8efd5e1eef5697e7', '45': 'a966e235599ba234616e9f0e38e43f51092716546a928d937a6dc15739c7108a', '46': 'd1c0d9899db1fe623c20462206f74f51e8c95c2e0d4cbff85ae5670d2070d3e6', '47': '23dbd0dde70e176f251b68e9e1d6275d869869ed7c83c250816817d87d4aedd2', '48': '22a79e46ccbdbbb6fe21c8be4b7687087a9446facc855e208407472e4762150f', '49': '1b0d320f8a06879c7398cdf52379d4bc179627847963a27e1923fc71818a1e9f', '5': 'b58166ad0ed2ed2588831c0db09e2bf0d7e2c32315292d2aa8088d7947a25a39', '6': '9ab9ef438ff853af9a709a5c5ca7f47c4734ecc74f1e92a91cdaa7c7ca71d5c3', '7': '753badbb75ee728df6c90348259088986bf0d81fdef54b1a8ea372675ca3d489', '8': 'e7a59ea67d5a7e8a4720a48454825191d0639d723cf0d05fdd25b8c84f6ff0d3', '9': 'fcbe160f0084ba95882786070b66495386e0f6941632955790fd461d7586c195'}
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): devnet-api.elrond.com:443
+urllib3.connectionpool - DEBUG - https://devnet-api.elrond.com:443 "GET /transactions?hashes=5becaafcc8c08bdeb25f11e7b3a5e3b1cabe71359cbeaf8cc5fd0b2f43388a55,09abc36c8726b8e08983e728b80d9d2cc6b190cf44d219aa5b692cfbf8b3b09f,a54bebc3de93e58ba2fd912e1af299490af87a2337ce4d0301dcd7de3cbc7447,2057d4090af7509983eb5832c49e2d9a1c3fbc693f3ba77ab05bfa05470fe16d,8496f9122e9e2f6b4fcf3c4ab185f0d63e4c66dc5e4ccc80ef7f5a5578e637d5,bd4bed0d0c6219953aa006669fa1236d81d2624068e179234949f01494cc70c2,714deac4bfa0238c134b440d17c04e823b387e2c5ca44fca6ddaa2350502ea1f,3c81877b63722c0b1549f14d03beb0aa75112763503068a52e9b1b9e76c33b18,42da29e3dd5e72c9fbb396228b420052bd1a1bce2a74d8eb1be4349d8adb27e8,02d77c6e18485a5884d66fa5c56df5ca6174a72a77a8e413eecc13af761e7598,475e1854d0299a1ca914b2c52c2e1c24664924a40797ae1a65750bcd1f169cbf,c9b87c3217659d8f56f7a83fc6ac729e164546d77342d2b38be7ed8c0934b0d0,e4a4902657cafa2f361dec432e679ef3635f610254634e6fbabd99861b65095f,a4611bab04a34f0ccbaafcb0da2205ab1418d6cb3bae0196878956145c358f17,9d1e7a2122cb58c582320f176fa764e7d00d95940964dd4fcde34892b7026ee9,3968f89013a282b2916138de6252f7985ce53fb29d4ab58758b5e0623549b0ed,45a19e9036c37b39a35eb38cf0d5b3157baabd1a11feefae18f0d1997e151490,cc863e05c1d63115094eae08e707979481f0a9fd54cd72e4b5da5dbc9e09ec6d,7f8822501748e0a9b182f85c00e0f8d6f1f913fb50cb13aa537b68d0fc235c93,5ee0a7584f84156b94f4499853a1d36723956469a852d4610cb9335832a9c8b5,56855657bfbb075bde659b3f9e5e1a937c11fe63a9a5ff1a6ca713c59d7c2a09,15bee49a8a8281213ad39d3e4f95dce80f0246479b64fed8775454327c4f83e9,c7839474a4fda59bee750669f7c38311e0c55bffa996f74ce6c447b036c88f82,b7fd0b28897b891b0a6f433d7ec2d702bef946b6447725abe69f819f8273b92d,ff916af61f64acc47b375ebbae4a423c468a8bb9c3b0e4df7904c931976a0eeb,9fbfc48313023bb40f17434e0440f45b7b2fb9561155321368633d9cfff3eae7,0cf2939dadfc360f078ffcebaf8f2f69303dd6c6af3ac83b2313a04b3d907766,9c06b1e679672a995aca801eec61f36e4570fb9ee0688c323429c07d1347c645,5790f4f0c3311af63b6ce16507533637b638f3bd5747f5c624979b4f6e73aa12,88492407ac3c56ac8a2f718b8c5b2c318591dca6f26a32497179a2091586dc4f,e48ce21dce37394daec53245d14a18ac0ddaf06a21c863044e0d541b7929c0a3,f245d2fbf9f34cbd7bdb374784a9d56bcf980fa8ec65f8cb295681ff766e82bd,958b21f155452375f0f684a40ec607dc297104a04bf1d7a5a085a3074696cd58,36045ff94cff5e441cde776b39e3c0bef50b79ad2a85dfc901241e48bb49b984,66afb7b9250b6f8019d7dfe2d52ab36c11b83a9503cae34f687a09d94f9b897d,61a37cb03a19491be7c264d99bbebba5dfcefd2d5bd51313a9567795f0acb254,eef5ba88453872d8d3c08b1590bab9b093cbf290e7514d5651a8477f5a3038a8,2d2e2c05fa88a299469c30dd27108eec1598c08315a7e4d77ffaf45bbcc64b5a,cfeb422ee698de5d434fc48e0b150714a60afa6339df2883cd29434707e2a979,d71020a697ddc3d8be89496cf090551ca4750fbc2a89681e8efd5e1eef5697e7,a966e235599ba234616e9f0e38e43f51092716546a928d937a6dc15739c7108a,d1c0d9899db1fe623c20462206f74f51e8c95c2e0d4cbff85ae5670d2070d3e6,23dbd0dde70e176f251b68e9e1d6275d869869ed7c83c250816817d87d4aedd2,22a79e46ccbdbbb6fe21c8be4b7687087a9446facc855e208407472e4762150f,1b0d320f8a06879c7398cdf52379d4bc179627847963a27e1923fc71818a1e9f,b58166ad0ed2ed2588831c0db09e2bf0d7e2c32315292d2aa8088d7947a25a39,9ab9ef438ff853af9a709a5c5ca7f47c4734ecc74f1e92a91cdaa7c7ca71d5c3,753badbb75ee728df6c90348259088986bf0d81fdef54b1a8ea372675ca3d489,e7a59ea67d5a7e8a4720a48454825191d0639d723cf0d05fdd25b8c84f6ff0d3,fcbe160f0084ba95882786070b66495386e0f6941632955790fd461d7586c195 HTTP/1.1" 200 92135
+accounts - INFO - Account.sync_nonce()
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): devnet-gateway.elrond.com:443
+urllib3.connectionpool - DEBUG - https://devnet-gateway.elrond.com:443 "GET /address/erd1hh7gte28hahk9htwlhzf3gretusckhrqf4y6xv5p9qwznhn7y4wswnzua3 HTTP/1.1" 200 333
+accounts - INFO - Account.sync_nonce() done: 10610
+root - DEBUG - Karma-Stickma: Doggy (Male - Male) #15
+root - DEBUG - Karma-Stickma: Doggy (Male - Male) #16
+root - DEBUG - Karma-Stickma: Doggy (Female - Female) #1
+root - DEBUG - Karma-Stickma: Doggy (Female - Female) #2
+root - DEBUG - Karma-Stickma: Doggy (Female - Female) #3
+root - DEBUG - Karma-Stickma: Doggy (Female - Female) #4
+root - DEBUG - Karma-Stickma: Doggy (Female - Female) #5
+root - DEBUG - Karma-Stickma: Doggy (Female - Female) #6
+root - DEBUG - Karma-Stickma: Doggy (Female - Female) #7
+root - DEBUG - Karma-Stickma: Doggy (Female - Female) #8
+root - DEBUG - Karma-Stickma: Doggy (Female - Female) #9
+root - DEBUG - Karma-Stickma: Doggy (Female - Female) #10
+root - DEBUG - Karma-Stickma: Doggy (Female - Female) #11
+root - DEBUG - Karma-Stickma: Doggy (Female - Female) #12
+root - DEBUG - Karma-Stickma: Doggy (Female - Female) #13
+root - DEBUG - Karma-Stickma: Doggy (Female - Female) #14
+root - DEBUG - Karma-Stickma: Doggy (Female - Female) #15
+root - DEBUG - Karma-Stickma: Doggy (Female - Female) #16
+root - DEBUG - Karma-Stickma: Doggy (Male - Female) #1
+root - DEBUG - Karma-Stickma: Doggy (Male - Female) #2
+root - DEBUG - Karma-Stickma: Doggy (Male - Female) #3
+root - DEBUG - Karma-Stickma: Doggy (Male - Female) #4
+root - DEBUG - Karma-Stickma: Doggy (Male - Female) #5
+root - DEBUG - Karma-Stickma: Doggy (Male - Female) #6
+root - DEBUG - Karma-Stickma: Doggy (Male - Female) #7
+root - DEBUG - Karma-Stickma: Doggy (Male - Female) #8
+root - DEBUG - Karma-Stickma: Doggy (Male - Female) #9
+root - DEBUG - Karma-Stickma: Doggy (Male - Female) #10
+root - DEBUG - Karma-Stickma: Doggy (Male - Female) #11
+root - DEBUG - Karma-Stickma: Doggy (Male - Female) #12
+root - DEBUG - Karma-Stickma: Doggy (Male - Female) #13
+root - DEBUG - Karma-Stickma: Doggy (Male - Female) #14
+root - DEBUG - Karma-Stickma: Doggy (Male - Female) #15
+root - DEBUG - Karma-Stickma: Doggy (Male - Female) #16
+root - DEBUG - Karma-Stickma: BJ (Male - Male) #1
+root - DEBUG - Karma-Stickma: BJ (Male - Male) #2
+root - DEBUG - Karma-Stickma: BJ (Male - Male) #3
+root - DEBUG - Karma-Stickma: BJ (Male - Male) #4
+root - DEBUG - Karma-Stickma: BJ (Male - Male) #5
+root - DEBUG - Karma-Stickma: BJ (Male - Male) #6
+root - DEBUG - Karma-Stickma: BJ (Male - Male) #7
+root - DEBUG - Karma-Stickma: BJ (Male - Male) #8
+root - DEBUG - Karma-Stickma: BJ (Male - Male) #9
+root - DEBUG - Karma-Stickma: BJ (Male - Male) #10
+root - DEBUG - Karma-Stickma: BJ (Male - Male) #11
+root - DEBUG - Karma-Stickma: BJ (Male - Male) #12
+root - DEBUG - Karma-Stickma: BJ (Male - Male) #13
+root - DEBUG - Karma-Stickma: BJ (Male - Male) #14
+root - DEBUG - Karma-Stickma: BJ (Male - Male) #15
+root - DEBUG - Karma-Stickma: BJ (Male - Male) #16
+transactions - INFO - BunchOfTransactions.send: 50 transactions
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): devnet-gateway.elrond.com:443
+urllib3.connectionpool - DEBUG - https://devnet-gateway.elrond.com:443 "POST /transaction/send-multiple HTTP/1.1" 200 None
+transactions - INFO - Sent: 50
+transactions - INFO - TxsHashes: {'0': '55b984ce82fa1afb67c94cd400ae23faba24622f7c431baf767aa45c4d798b5f', '1': '98bda4f3f5a7bcfa4ed2bbe449c26d5def5f0b4868c2c6c1c824cf6bde0a8167', '10': '5af1d6d3ab496575b08ecb766b9c4c9026788b8cb7b150b310163d636782e787', '11': '602763676376b7da3c9f3973938322565a8aa04cda5b350549fda493b0ff2442', '12': 'add65b4bb2a5f88c4b5fd5f79c575d7b13551b4dff9f8517fc8f1f510c3b4f49', '13': 'f8eaaa1f10278e4e03ed3fc06a8a9bab53c05ebc8feb95571aae484e590b8881', '14': '2aa465c2bc25c1d8f8d22400c3785282c1bc91f9d849fb90515173438c3f54cb', '15': 'c7057797bfe4832fff8e3018195b46dedc32d90d17437ca13deff129e877bd5e', '16': '3fe5b1f4b95090f8bb0b404cfc5510f5e0e30b957fbc4f7831fe38dfe2c572ef', '17': 'c9ed9daf5963213664eca533b149c93c81706b5b248e6117bce5479db7b0ec83', '18': '4d6fbdd0f9aed05f68fa0d1354029d01f47ab936dbb9838c6a92aec4a3a28e2a', '19': 'b9ebb01314f5c66e0fb07c0b3580ee76b43e5a0c560415b8f695746a942b348a', '2': 'ea183efd846765c25ce2d18cf7d3d12eab146dc8f13c7048e105e3647490ad01', '20': '4ca961f14c8d0c0f672ecc86e23eaab2a4820eef94ecb87efb93bd4417b95bc3', '21': '9f4ccea9bdd49d9f70beab7b2b85cdbf6f8a81ce62d16285bcbffadb13b392cd', '22': '968fe6061fd8d46b66cbff4abb9158beaad3465ea3ece80d9c40e3754dde9061', '23': 'e0a13f48c736bd6bf55e110295d720ad43f799e0d1302a171b208bdbe200f3a0', '24': 'aec7ef4833ba93911091b47a1e6907a612e9a9ab9a6e0e625e916dd74a2f6116', '25': '21666a8c6647d24f518a14f213a0d7d39f8c6303c2601d90eebe94d5862ac96f', '26': '9fae1685b713041aca0ef918d8961ac91c7c74950e49c653dc01f8097f87e1c2', '27': 'f69bde014415a6ba740136fbc758dbbe2d45c1ab6cb888bcc009bdacda5e9b18', '28': '46d368835a649b883535d96d6e15cfdf40ffc765134c67ae86630217b6cf2623', '29': '48c7f8392bc5188aa469b6644f8044cf802c79297b988dee4e2fd9b7eaf1b9ff', '3': 'ca0530632746cf8eb3ab3a6d523ea97a0e1cbaf8f4c0b445ee4dd261695eb37f', '30': '1a227b8a27c0245b892ed4316311db3836b9826d61dc3a9e45eb919c3a3b9663', '31': '6700034e5e07c75ef5ffdcdab5a40107eb462ba890b275e39f52b0a7ce0c5eb6', '32': '58aafce70d7be67694f1d85dc8736e39741130e941093d0187f8ff619780175c', '33': '0b07165e257a64fdc810b846a91b71de5ca09824ff053f5f1e9056bc4cc25156', '34': 'a26ef9d735d38164ba65dcf369b9721f4c08f145ce83472ff8e172126d178e93', '35': '49b2fb7323ddca006c3e465447bc7df0656f2a0de15d6df4ec683d2c1543876b', '36': '993ef3e3eaa495952a210d6bfd9436a1b8bbd06f43dae18463771212d414f1b3', '37': '11675d0b51f5d9edb9f7d5577858abd49929780e8dbabfdd5f22974a0c4e69b4', '38': 'eefb00533cd1c6c02b60e1d73b5a1024461d588e2b3ec0aa22fac64d3a71ffa6', '39': '59564373bc3b106ad14eafc057168fcd2a483b2d2ffd671109ed3c2b43b5c71a', '4': 'eb66c738e6aeff39b6658ad27b9a1489ee7b8c9aab4087b5f51d1df453b73f6b', '40': '896db3ed5b257600984b44b695e2731c1c456b5b6b7333dbfb5896a6d8734b9f', '41': '4a8d827943c55a0905d3e8c00e61554f8493555fff02cbd6232a4927f6f7d5eb', '42': '555bd413eac18406078d7f9c91ec2982d62c3ef8feb47776644575fc9d72aea2', '43': '21fecaf458af6a6dafdb0af42a84cbff62984ddd44d0d2d11bc0503d3b46d4d1', '44': '21f4a0ac59408c7a0a772423b00b226d8fafa100a301c1ba20179bb9512719f6', '45': '35572bd982714d4b03b7be9f88477ec73bdb4aeb9d796215d8556bf3c22093b5', '46': '46413996ee7850dbeb090f41daaddbae958dad5ba91a10783f547269294ddd52', '47': '6dea3ddd0270be55f6b813fd104058461dca626c2cb5f85da28c729cb4779307', '48': '5731e0a505ab56108cdd86f2bc8a9d0c2fe630b173b7b6f82e3f007803c1fdb1', '49': 'b09b48cef102f79d6064dadc8ae6fe98302953671373fb4d1a2ae46bd859cfc4', '5': 'f801e0a999e9e829eadfea9ea820891a486cb8533b85efe29fca614d9cf478ab', '6': '4ceb716ea53c05003ef1461d90bd86c97ecffe21c1f4ef9e0adf69a7b8eacc61', '7': '3f3863e7de4ac88e11636588809a7312130ae784ed3d17d8ff3f64502118ab1a', '8': '2e71afd8fce52ad67d92de927a7e78d2a50ad7818ccb97b0b2a4841bb31aa769', '9': 'c44224e1023f2a53145ad916389f73895272206efb38b2b77734357e94c462c2'}
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): devnet-api.elrond.com:443
+urllib3.connectionpool - DEBUG - https://devnet-api.elrond.com:443 "GET /transactions?hashes=55b984ce82fa1afb67c94cd400ae23faba24622f7c431baf767aa45c4d798b5f,98bda4f3f5a7bcfa4ed2bbe449c26d5def5f0b4868c2c6c1c824cf6bde0a8167,5af1d6d3ab496575b08ecb766b9c4c9026788b8cb7b150b310163d636782e787,602763676376b7da3c9f3973938322565a8aa04cda5b350549fda493b0ff2442,add65b4bb2a5f88c4b5fd5f79c575d7b13551b4dff9f8517fc8f1f510c3b4f49,f8eaaa1f10278e4e03ed3fc06a8a9bab53c05ebc8feb95571aae484e590b8881,2aa465c2bc25c1d8f8d22400c3785282c1bc91f9d849fb90515173438c3f54cb,c7057797bfe4832fff8e3018195b46dedc32d90d17437ca13deff129e877bd5e,3fe5b1f4b95090f8bb0b404cfc5510f5e0e30b957fbc4f7831fe38dfe2c572ef,c9ed9daf5963213664eca533b149c93c81706b5b248e6117bce5479db7b0ec83,4d6fbdd0f9aed05f68fa0d1354029d01f47ab936dbb9838c6a92aec4a3a28e2a,b9ebb01314f5c66e0fb07c0b3580ee76b43e5a0c560415b8f695746a942b348a,ea183efd846765c25ce2d18cf7d3d12eab146dc8f13c7048e105e3647490ad01,4ca961f14c8d0c0f672ecc86e23eaab2a4820eef94ecb87efb93bd4417b95bc3,9f4ccea9bdd49d9f70beab7b2b85cdbf6f8a81ce62d16285bcbffadb13b392cd,968fe6061fd8d46b66cbff4abb9158beaad3465ea3ece80d9c40e3754dde9061,e0a13f48c736bd6bf55e110295d720ad43f799e0d1302a171b208bdbe200f3a0,aec7ef4833ba93911091b47a1e6907a612e9a9ab9a6e0e625e916dd74a2f6116,21666a8c6647d24f518a14f213a0d7d39f8c6303c2601d90eebe94d5862ac96f,9fae1685b713041aca0ef918d8961ac91c7c74950e49c653dc01f8097f87e1c2,f69bde014415a6ba740136fbc758dbbe2d45c1ab6cb888bcc009bdacda5e9b18,46d368835a649b883535d96d6e15cfdf40ffc765134c67ae86630217b6cf2623,48c7f8392bc5188aa469b6644f8044cf802c79297b988dee4e2fd9b7eaf1b9ff,ca0530632746cf8eb3ab3a6d523ea97a0e1cbaf8f4c0b445ee4dd261695eb37f,1a227b8a27c0245b892ed4316311db3836b9826d61dc3a9e45eb919c3a3b9663,6700034e5e07c75ef5ffdcdab5a40107eb462ba890b275e39f52b0a7ce0c5eb6,58aafce70d7be67694f1d85dc8736e39741130e941093d0187f8ff619780175c,0b07165e257a64fdc810b846a91b71de5ca09824ff053f5f1e9056bc4cc25156,a26ef9d735d38164ba65dcf369b9721f4c08f145ce83472ff8e172126d178e93,49b2fb7323ddca006c3e465447bc7df0656f2a0de15d6df4ec683d2c1543876b,993ef3e3eaa495952a210d6bfd9436a1b8bbd06f43dae18463771212d414f1b3,11675d0b51f5d9edb9f7d5577858abd49929780e8dbabfdd5f22974a0c4e69b4,eefb00533cd1c6c02b60e1d73b5a1024461d588e2b3ec0aa22fac64d3a71ffa6,59564373bc3b106ad14eafc057168fcd2a483b2d2ffd671109ed3c2b43b5c71a,eb66c738e6aeff39b6658ad27b9a1489ee7b8c9aab4087b5f51d1df453b73f6b,896db3ed5b257600984b44b695e2731c1c456b5b6b7333dbfb5896a6d8734b9f,4a8d827943c55a0905d3e8c00e61554f8493555fff02cbd6232a4927f6f7d5eb,555bd413eac18406078d7f9c91ec2982d62c3ef8feb47776644575fc9d72aea2,21fecaf458af6a6dafdb0af42a84cbff62984ddd44d0d2d11bc0503d3b46d4d1,21f4a0ac59408c7a0a772423b00b226d8fafa100a301c1ba20179bb9512719f6,35572bd982714d4b03b7be9f88477ec73bdb4aeb9d796215d8556bf3c22093b5,46413996ee7850dbeb090f41daaddbae958dad5ba91a10783f547269294ddd52,6dea3ddd0270be55f6b813fd104058461dca626c2cb5f85da28c729cb4779307,5731e0a505ab56108cdd86f2bc8a9d0c2fe630b173b7b6f82e3f007803c1fdb1,b09b48cef102f79d6064dadc8ae6fe98302953671373fb4d1a2ae46bd859cfc4,f801e0a999e9e829eadfea9ea820891a486cb8533b85efe29fca614d9cf478ab,4ceb716ea53c05003ef1461d90bd86c97ecffe21c1f4ef9e0adf69a7b8eacc61,3f3863e7de4ac88e11636588809a7312130ae784ed3d17d8ff3f64502118ab1a,2e71afd8fce52ad67d92de927a7e78d2a50ad7818ccb97b0b2a4841bb31aa769,c44224e1023f2a53145ad916389f73895272206efb38b2b77734357e94c462c2 HTTP/1.1" 200 85321
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): devnet-api.elrond.com:443
+urllib3.connectionpool - DEBUG - https://devnet-api.elrond.com:443 "GET /transactions?hashes=55b984ce82fa1afb67c94cd400ae23faba24622f7c431baf767aa45c4d798b5f,98bda4f3f5a7bcfa4ed2bbe449c26d5def5f0b4868c2c6c1c824cf6bde0a8167,5af1d6d3ab496575b08ecb766b9c4c9026788b8cb7b150b310163d636782e787,602763676376b7da3c9f3973938322565a8aa04cda5b350549fda493b0ff2442,add65b4bb2a5f88c4b5fd5f79c575d7b13551b4dff9f8517fc8f1f510c3b4f49,f8eaaa1f10278e4e03ed3fc06a8a9bab53c05ebc8feb95571aae484e590b8881,2aa465c2bc25c1d8f8d22400c3785282c1bc91f9d849fb90515173438c3f54cb,c7057797bfe4832fff8e3018195b46dedc32d90d17437ca13deff129e877bd5e,3fe5b1f4b95090f8bb0b404cfc5510f5e0e30b957fbc4f7831fe38dfe2c572ef,c9ed9daf5963213664eca533b149c93c81706b5b248e6117bce5479db7b0ec83,4d6fbdd0f9aed05f68fa0d1354029d01f47ab936dbb9838c6a92aec4a3a28e2a,b9ebb01314f5c66e0fb07c0b3580ee76b43e5a0c560415b8f695746a942b348a,ea183efd846765c25ce2d18cf7d3d12eab146dc8f13c7048e105e3647490ad01,4ca961f14c8d0c0f672ecc86e23eaab2a4820eef94ecb87efb93bd4417b95bc3,9f4ccea9bdd49d9f70beab7b2b85cdbf6f8a81ce62d16285bcbffadb13b392cd,968fe6061fd8d46b66cbff4abb9158beaad3465ea3ece80d9c40e3754dde9061,e0a13f48c736bd6bf55e110295d720ad43f799e0d1302a171b208bdbe200f3a0,aec7ef4833ba93911091b47a1e6907a612e9a9ab9a6e0e625e916dd74a2f6116,21666a8c6647d24f518a14f213a0d7d39f8c6303c2601d90eebe94d5862ac96f,9fae1685b713041aca0ef918d8961ac91c7c74950e49c653dc01f8097f87e1c2,f69bde014415a6ba740136fbc758dbbe2d45c1ab6cb888bcc009bdacda5e9b18,46d368835a649b883535d96d6e15cfdf40ffc765134c67ae86630217b6cf2623,48c7f8392bc5188aa469b6644f8044cf802c79297b988dee4e2fd9b7eaf1b9ff,ca0530632746cf8eb3ab3a6d523ea97a0e1cbaf8f4c0b445ee4dd261695eb37f,1a227b8a27c0245b892ed4316311db3836b9826d61dc3a9e45eb919c3a3b9663,6700034e5e07c75ef5ffdcdab5a40107eb462ba890b275e39f52b0a7ce0c5eb6,58aafce70d7be67694f1d85dc8736e39741130e941093d0187f8ff619780175c,0b07165e257a64fdc810b846a91b71de5ca09824ff053f5f1e9056bc4cc25156,a26ef9d735d38164ba65dcf369b9721f4c08f145ce83472ff8e172126d178e93,49b2fb7323ddca006c3e465447bc7df0656f2a0de15d6df4ec683d2c1543876b,993ef3e3eaa495952a210d6bfd9436a1b8bbd06f43dae18463771212d414f1b3,11675d0b51f5d9edb9f7d5577858abd49929780e8dbabfdd5f22974a0c4e69b4,eefb00533cd1c6c02b60e1d73b5a1024461d588e2b3ec0aa22fac64d3a71ffa6,59564373bc3b106ad14eafc057168fcd2a483b2d2ffd671109ed3c2b43b5c71a,eb66c738e6aeff39b6658ad27b9a1489ee7b8c9aab4087b5f51d1df453b73f6b,896db3ed5b257600984b44b695e2731c1c456b5b6b7333dbfb5896a6d8734b9f,4a8d827943c55a0905d3e8c00e61554f8493555fff02cbd6232a4927f6f7d5eb,555bd413eac18406078d7f9c91ec2982d62c3ef8feb47776644575fc9d72aea2,21fecaf458af6a6dafdb0af42a84cbff62984ddd44d0d2d11bc0503d3b46d4d1,21f4a0ac59408c7a0a772423b00b226d8fafa100a301c1ba20179bb9512719f6,35572bd982714d4b03b7be9f88477ec73bdb4aeb9d796215d8556bf3c22093b5,46413996ee7850dbeb090f41daaddbae958dad5ba91a10783f547269294ddd52,6dea3ddd0270be55f6b813fd104058461dca626c2cb5f85da28c729cb4779307,5731e0a505ab56108cdd86f2bc8a9d0c2fe630b173b7b6f82e3f007803c1fdb1,b09b48cef102f79d6064dadc8ae6fe98302953671373fb4d1a2ae46bd859cfc4,f801e0a999e9e829eadfea9ea820891a486cb8533b85efe29fca614d9cf478ab,4ceb716ea53c05003ef1461d90bd86c97ecffe21c1f4ef9e0adf69a7b8eacc61,3f3863e7de4ac88e11636588809a7312130ae784ed3d17d8ff3f64502118ab1a,2e71afd8fce52ad67d92de927a7e78d2a50ad7818ccb97b0b2a4841bb31aa769,c44224e1023f2a53145ad916389f73895272206efb38b2b77734357e94c462c2 HTTP/1.1" 200 93046
+accounts - INFO - Account.sync_nonce()
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): devnet-gateway.elrond.com:443
+urllib3.connectionpool - DEBUG - https://devnet-gateway.elrond.com:443 "GET /address/erd1hh7gte28hahk9htwlhzf3gretusckhrqf4y6xv5p9qwznhn7y4wswnzua3 HTTP/1.1" 200 333
+accounts - INFO - Account.sync_nonce() done: 10660
+root - DEBUG - Karma-Stickma: BJ (Female - Female) #1
+root - DEBUG - Karma-Stickma: BJ (Female - Female) #2
+root - DEBUG - Karma-Stickma: BJ (Female - Female) #3
+root - DEBUG - Karma-Stickma: BJ (Female - Female) #4
+root - DEBUG - Karma-Stickma: BJ (Female - Female) #5
+root - DEBUG - Karma-Stickma: BJ (Female - Female) #6
+root - DEBUG - Karma-Stickma: BJ (Female - Female) #7
+root - DEBUG - Karma-Stickma: BJ (Female - Female) #8
+root - DEBUG - Karma-Stickma: BJ (Female - Female) #9
+root - DEBUG - Karma-Stickma: BJ (Female - Female) #10
+root - DEBUG - Karma-Stickma: BJ (Female - Female) #11
+root - DEBUG - Karma-Stickma: BJ (Female - Female) #12
+root - DEBUG - Karma-Stickma: BJ (Female - Female) #13
+root - DEBUG - Karma-Stickma: BJ (Female - Female) #14
+root - DEBUG - Karma-Stickma: BJ (Female - Female) #15
+root - DEBUG - Karma-Stickma: BJ (Female - Female) #16
+root - DEBUG - Karma-Stickma: BJ (Male - Female) #1
+root - DEBUG - Karma-Stickma: BJ (Male - Female) #2
+root - DEBUG - Karma-Stickma: BJ (Male - Female) #3
+root - DEBUG - Karma-Stickma: BJ (Male - Female) #4
+root - DEBUG - Karma-Stickma: BJ (Male - Female) #5
+root - DEBUG - Karma-Stickma: BJ (Male - Female) #6
+root - DEBUG - Karma-Stickma: BJ (Male - Female) #7
+root - DEBUG - Karma-Stickma: BJ (Male - Female) #8
+root - DEBUG - Karma-Stickma: BJ (Male - Female) #9
+root - DEBUG - Karma-Stickma: BJ (Male - Female) #10
+root - DEBUG - Karma-Stickma: BJ (Male - Female) #11
+root - DEBUG - Karma-Stickma: BJ (Male - Female) #12
+root - DEBUG - Karma-Stickma: BJ (Male - Female) #13
+root - DEBUG - Karma-Stickma: BJ (Male - Female) #14
+root - DEBUG - Karma-Stickma: BJ (Male - Female) #15
+root - DEBUG - Karma-Stickma: BJ (Male - Female) #16
+transactions - INFO - BunchOfTransactions.send: 32 transactions
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): devnet-gateway.elrond.com:443
+urllib3.connectionpool - DEBUG - https://devnet-gateway.elrond.com:443 "POST /transaction/send-multiple HTTP/1.1" 200 None
+transactions - INFO - Sent: 32
+transactions - INFO - TxsHashes: {'0': '6fd9d5d057dec58799e81d830d722470a02c97e7025c815f76430857b02a4707', '1': '497f652fd76cda93a27d0e55ec4c917a9a0dba20413440c44500e0807edc245f', '10': '0345e1dca6e0a65959b469f843a6cb3db7bb28323c282f79fa23f5b374050140', '11': 'fd312a498395f81a207fb8e9a7140d3ccc6e34a16a98bae62320b67782b9a02e', '12': '7bed76f550c06fe2c029d2303b4efe32d7251e422138cbf8d768315d6c2a32bb', '13': 'bddd7e6397eb6c5a4627d173aa737fcd52cf449d652b267e7e4668c62f28b021', '14': 'bf239ec962e427f3bb632082bf593f6474375ff84195af69c8484127c4c3aac8', '15': '90765d2b749dc652d647184e5e1cbb15077608c87c977acdabafb4eb8dfc4e86', '16': '3861f3e571d8595ba224e545a2795e922a17e1a9e7d9061203b660b167b8f4ac', '17': '6dd21d081a6d71677ba91e547018b4079fd5736a599b892c3cfe8d75ed519618', '18': '45fedc400f448c33619f39ebf68f92760ee5fb33027f8392da22ea9b42eb2b3b', '19': 'fdb323c4225014b3a105de6759151f6463a12cc2062031b62c17b5ee528a3f04', '2': 'f1b8b2bd422ecf95a9b4f0bf5430db21396cf6de199fe491b3a5ca8357b56731', '20': '4db8daaa49b908a36acb0aaa7eb0823b35fc9605c273936417f6b74768c96488', '21': '4dc97aa4bf668082e71a69127ea285775002746241c0fbe9349af4850a4a971a', '22': '325b8ced4146b632da4cada948d18d95bea39d43d7a1063c5ebccab025de8db9', '23': 'cbce54d3f478f22111e78423305103d6c205f43622c06a0ad9d962b80b486bbc', '24': 'c318e781debef2776b4cd455f1c6606b54c58b541c2009ab32633f150396240f', '25': 'cc03efe258b5cace2ee84885c0a28a34b3f126aefa600fc3ae9d62779d72fc71', '26': 'c7fa335037042da22e340057d5cafd0422a0c9f6c0d33056df54fe2af91293f1', '27': 'f87628c9c83b3f7cf33866f0fa71b7c0f23a475832f938df0dd7715a7c5a24fa', '28': 'fa4a1c1430aa69b4af0978e90126c8e184cfcb240814c0293b2ce21a467cd4b2', '29': '547bac8246f32f18474f6dccb528a2dee333f90afd1e39f480b83f8fc6c1a66f', '3': '716d5bedf9704cc4600fea6d14fefcee29b3821a3fb122254168477e4edeeb5a', '30': '08744bb5b662ba009dd0e362221a55e1ba006128f5b3dc64a03c814c2939194d', '31': 'ea1e17d09160c6810064f99f31d4e7a8c7509164b7dade6db3017ee00554faa1', '4': '86733bc001427d3a5f9747156d36b70012c45d359f11dfaf655999376c190e5b', '5': '294209f2e0ead9b6dc1b13bebd08cae410702291272f2047bf77c3b5ec291587', '6': '7ce672e5da3b706285b8b30724fe75893e94da37a3db962a22ca1ffa789f9841', '7': 'c6699b5c1b60ff686e1d02fed8028bf3400d53772a3408f9b306c89ba8ec6527', '8': '0220dfd20e9570ba3e3978d06ed7975f4fe10e1401e0a41f7ca8bbe30d375ac9', '9': '888b175278573b0f8080019c5f4b3fe65a9f6b3ac02ab013505a8f4d09fbd0fb'}
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): devnet-api.elrond.com:443
+urllib3.connectionpool - DEBUG - https://devnet-api.elrond.com:443 "GET /transactions?hashes=6fd9d5d057dec58799e81d830d722470a02c97e7025c815f76430857b02a4707,497f652fd76cda93a27d0e55ec4c917a9a0dba20413440c44500e0807edc245f,0345e1dca6e0a65959b469f843a6cb3db7bb28323c282f79fa23f5b374050140,fd312a498395f81a207fb8e9a7140d3ccc6e34a16a98bae62320b67782b9a02e,7bed76f550c06fe2c029d2303b4efe32d7251e422138cbf8d768315d6c2a32bb,bddd7e6397eb6c5a4627d173aa737fcd52cf449d652b267e7e4668c62f28b021,bf239ec962e427f3bb632082bf593f6474375ff84195af69c8484127c4c3aac8,90765d2b749dc652d647184e5e1cbb15077608c87c977acdabafb4eb8dfc4e86,3861f3e571d8595ba224e545a2795e922a17e1a9e7d9061203b660b167b8f4ac,6dd21d081a6d71677ba91e547018b4079fd5736a599b892c3cfe8d75ed519618,45fedc400f448c33619f39ebf68f92760ee5fb33027f8392da22ea9b42eb2b3b,fdb323c4225014b3a105de6759151f6463a12cc2062031b62c17b5ee528a3f04,f1b8b2bd422ecf95a9b4f0bf5430db21396cf6de199fe491b3a5ca8357b56731,4db8daaa49b908a36acb0aaa7eb0823b35fc9605c273936417f6b74768c96488,4dc97aa4bf668082e71a69127ea285775002746241c0fbe9349af4850a4a971a,325b8ced4146b632da4cada948d18d95bea39d43d7a1063c5ebccab025de8db9,cbce54d3f478f22111e78423305103d6c205f43622c06a0ad9d962b80b486bbc,c318e781debef2776b4cd455f1c6606b54c58b541c2009ab32633f150396240f,cc03efe258b5cace2ee84885c0a28a34b3f126aefa600fc3ae9d62779d72fc71,c7fa335037042da22e340057d5cafd0422a0c9f6c0d33056df54fe2af91293f1,f87628c9c83b3f7cf33866f0fa71b7c0f23a475832f938df0dd7715a7c5a24fa,fa4a1c1430aa69b4af0978e90126c8e184cfcb240814c0293b2ce21a467cd4b2,547bac8246f32f18474f6dccb528a2dee333f90afd1e39f480b83f8fc6c1a66f,716d5bedf9704cc4600fea6d14fefcee29b3821a3fb122254168477e4edeeb5a,08744bb5b662ba009dd0e362221a55e1ba006128f5b3dc64a03c814c2939194d,ea1e17d09160c6810064f99f31d4e7a8c7509164b7dade6db3017ee00554faa1,86733bc001427d3a5f9747156d36b70012c45d359f11dfaf655999376c190e5b,294209f2e0ead9b6dc1b13bebd08cae410702291272f2047bf77c3b5ec291587,7ce672e5da3b706285b8b30724fe75893e94da37a3db962a22ca1ffa789f9841,c6699b5c1b60ff686e1d02fed8028bf3400d53772a3408f9b306c89ba8ec6527,0220dfd20e9570ba3e3978d06ed7975f4fe10e1401e0a41f7ca8bbe30d375ac9,888b175278573b0f8080019c5f4b3fe65a9f6b3ac02ab013505a8f4d09fbd0fb HTTP/1.1" 200 54265
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): devnet-api.elrond.com:443
+urllib3.connectionpool - DEBUG - https://devnet-api.elrond.com:443 "GET /transactions?hashes=6fd9d5d057dec58799e81d830d722470a02c97e7025c815f76430857b02a4707,497f652fd76cda93a27d0e55ec4c917a9a0dba20413440c44500e0807edc245f,0345e1dca6e0a65959b469f843a6cb3db7bb28323c282f79fa23f5b374050140,fd312a498395f81a207fb8e9a7140d3ccc6e34a16a98bae62320b67782b9a02e,7bed76f550c06fe2c029d2303b4efe32d7251e422138cbf8d768315d6c2a32bb,bddd7e6397eb6c5a4627d173aa737fcd52cf449d652b267e7e4668c62f28b021,bf239ec962e427f3bb632082bf593f6474375ff84195af69c8484127c4c3aac8,90765d2b749dc652d647184e5e1cbb15077608c87c977acdabafb4eb8dfc4e86,3861f3e571d8595ba224e545a2795e922a17e1a9e7d9061203b660b167b8f4ac,6dd21d081a6d71677ba91e547018b4079fd5736a599b892c3cfe8d75ed519618,45fedc400f448c33619f39ebf68f92760ee5fb33027f8392da22ea9b42eb2b3b,fdb323c4225014b3a105de6759151f6463a12cc2062031b62c17b5ee528a3f04,f1b8b2bd422ecf95a9b4f0bf5430db21396cf6de199fe491b3a5ca8357b56731,4db8daaa49b908a36acb0aaa7eb0823b35fc9605c273936417f6b74768c96488,4dc97aa4bf668082e71a69127ea285775002746241c0fbe9349af4850a4a971a,325b8ced4146b632da4cada948d18d95bea39d43d7a1063c5ebccab025de8db9,cbce54d3f478f22111e78423305103d6c205f43622c06a0ad9d962b80b486bbc,c318e781debef2776b4cd455f1c6606b54c58b541c2009ab32633f150396240f,cc03efe258b5cace2ee84885c0a28a34b3f126aefa600fc3ae9d62779d72fc71,c7fa335037042da22e340057d5cafd0422a0c9f6c0d33056df54fe2af91293f1,f87628c9c83b3f7cf33866f0fa71b7c0f23a475832f938df0dd7715a7c5a24fa,fa4a1c1430aa69b4af0978e90126c8e184cfcb240814c0293b2ce21a467cd4b2,547bac8246f32f18474f6dccb528a2dee333f90afd1e39f480b83f8fc6c1a66f,716d5bedf9704cc4600fea6d14fefcee29b3821a3fb122254168477e4edeeb5a,08744bb5b662ba009dd0e362221a55e1ba006128f5b3dc64a03c814c2939194d,ea1e17d09160c6810064f99f31d4e7a8c7509164b7dade6db3017ee00554faa1,86733bc001427d3a5f9747156d36b70012c45d359f11dfaf655999376c190e5b,294209f2e0ead9b6dc1b13bebd08cae410702291272f2047bf77c3b5ec291587,7ce672e5da3b706285b8b30724fe75893e94da37a3db962a22ca1ffa789f9841,c6699b5c1b60ff686e1d02fed8028bf3400d53772a3408f9b306c89ba8ec6527,0220dfd20e9570ba3e3978d06ed7975f4fe10e1401e0a41f7ca8bbe30d375ac9,888b175278573b0f8080019c5f4b3fe65a9f6b3ac02ab013505a8f4d09fbd0fb HTTP/1.1" 200 59812
